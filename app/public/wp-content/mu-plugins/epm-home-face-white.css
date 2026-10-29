@@ -32,7 +32,7 @@ body.home .elementor[data-elementor-type="wp-page"][data-elementor-id="5"] :is(
 }
 
 /* Our Strengths: align this homepage section to the left edge. */
-body.home .elementor.elementor.elementor[data-elementor-type="wp-page"] > .elementor-element-d673eec.elementor-element-d673eec {
+body.home .elementor.elementor.elementor[data-elementor-type="wp-page"] > .elementor-element-d673eec.elementor-element-d673eec.elementor-element-d673eec {
  padding-left:0!important;
  margin-left:0!important;
  --padding-left:0px;
@@ -592,3 +592,4 @@ body.epm-home-face-white .elementor.elementor-3370[data-elementor-type="wp-page"
 body.epm-home-face-white .elementor.elementor-3370[data-elementor-type="wp-page"] .elementor-element-2b49a16 .elementor-image-box-title {
     margin: 0 !important;
 }
+
