@@ -31,6 +31,25 @@ body.home .elementor[data-elementor-type="wp-page"][data-elementor-id="5"] :is(
  pointer-events:none;
 }
 
+/* Our Strengths: align this homepage section to the left edge. */
+body.home .elementor.elementor.elementor[data-elementor-type="wp-page"] > .elementor-element-d673eec.elementor-element-d673eec {
+ padding-left:0!important;
+ margin-left:0!important;
+ --padding-left:0px;
+}
+body.home .elementor[data-elementor-id="5"] .elementor-element-d673eec :is(.elementor-element-929560f,.elementor-element-29834d7,.elementor-element-7a72a9d,.e-con-inner) {
+ width:100%!important;max-width:100%!important;
+ margin-left:0!important;padding-left:0!important;
+ align-items:flex-start!important;justify-content:flex-start!important;
+}
+body.home .elementor[data-elementor-id="5"] .elementor-element-d673eec :is(.elementor-element-8f5083b,.elementor-element-0026bd3,.elementor-element-88f3675) {
+ margin-left:0!important;padding-left:0!important;align-self:flex-start!important;text-align:left!important;
+}
+body.home .elementor[data-elementor-id="5"] .elementor-element-d673eec :is(.elementor-heading-title,.elementor-widget-text-editor p) {
+ margin-left:0!important;text-align:left!important;
+}
+body.home .elementor[data-elementor-id="5"] .elementor-element-d673eec .elementor-element-be51366 {display:none!important;}
+
 /* Match the existing white pages while retaining original heroes and media. */
 body.epm-home-face-white,
 body.epm-home-face-white .elementor[data-elementor-type="wp-page"] {
