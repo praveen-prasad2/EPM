@@ -1,5 +1,15 @@
 # Deployment allowlist: all other local files stay out of Git.
 /*
+!/.github/
+/.github/*
+!/.github/workflows/
+/.github/workflows/*
+!/.github/workflows/hostinger.yml
+!/deploy/
+/deploy/*
+!/deploy/hostinger.sh
+!/deploy/hostinger-known-hosts
+!/deploy/HOSTINGER.md
 !/app/
 /app/*
 !/app/public/

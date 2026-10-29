@@ -1,0 +1,32 @@
+name: Hostinger deployment
+
+on:
+  workflow_dispatch:
+    inputs:
+      deploy:
+        description: 'Copy files to Hostinger (leave unchecked for a connection check and preview)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: hostinger-deployment
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Check connection or deploy selected files
+        env:
+          HOSTINGER_SSH_KEY: ${{ secrets.HOSTINGER_SSH_KEY }}
+          HOSTINGER_PATH: ${{ secrets.HOSTINGER_PATH }}
+          DEPLOY: ${{ inputs.deploy }}
+        run: bash deploy/hostinger.sh
