@@ -1,3 +1,23 @@
+/* Supplied decorative underline: only the requested homepage headings.
+   Duplicate partner/group widgets cover Elementor's responsive variants. */
+body.home .elementor[data-elementor-type="wp-page"][data-elementor-id="5"] :is(
+ .elementor-element-089e0da, .elementor-element-60b547d,
+ .elementor-element-13a86a2, .elementor-element-d27cd96,
+ .elementor-element-8f5083b, .elementor-element-0e070d9,
+ .elementor-element-194b2be, .elementor-element-b46e9cd,
+ .elementor-element-b9b7bdb, .elementor-element-072474f,
+ .elementor-element-4090cb3, .elementor-element-3a517bc,
+ .elementor-element-bdfc9fa
+) .elementor-heading-title::after {
+ content:"";
+ display:block;
+ width:min(100%,1000px);
+ height:clamp(2px,.3vw,4px);
+ margin:10px auto 0;
+ background:url('epm-light-assets/home-heading-line.png') center / 100% 100% no-repeat;
+ pointer-events:none;
+}
+
 /* Match the existing white pages while retaining original heroes and media. */
 body.epm-home-face-white,
 body.epm-home-face-white .elementor[data-elementor-type="wp-page"] {
