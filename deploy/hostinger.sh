@@ -14,9 +14,13 @@ fi
 ssh_dir=$(mktemp -d "$RUNNER_TEMP/epm-ssh.XXXXXX")
 trap 'rm -rf -- "$ssh_dir"' EXIT
 chmod 700 "$ssh_dir"
-printf '%s\n' "$HOSTINGER_SSH_KEY" > "$ssh_dir/key"
+printf '%s\n' "$HOSTINGER_SSH_KEY" | tr -d '\r' > "$ssh_dir/key"
 chmod 600 "$ssh_dir/key"
 unset HOSTINGER_SSH_KEY
+if ! ssh-keygen -y -P '' -f "$ssh_dir/key" > /dev/null 2>&1; then
+  echo '::error::HOSTINGER_SSH_KEY is not a readable, unencrypted private SSH key. Replace the GitHub secret with the complete contents of temp/epm-hostinger-deploy, including both BEGIN/END lines. Do not use the .pub file, a file path, or a password.'
+  exit 1
+fi
 cp deploy/hostinger-known-hosts "$ssh_dir/known_hosts"
 cat > "$ssh_dir/config" <<EOF
 Host epm-hostinger
