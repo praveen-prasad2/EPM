@@ -1,0 +1,542 @@
+/* Match the existing white pages while retaining original heroes and media. */
+body.epm-home-face-white,
+body.epm-home-face-white .elementor[data-elementor-type="wp-page"] {
+    background: #fff !important;
+}
+body.epm-home-face-white .elementor[data-elementor-type="wp-page"] > .e-con:not(:first-child),
+body.epm-home-face-white .elementor[data-elementor-type="wp-page"] > .e-con:not(:first-child) .e-con:has(.elementor-widget):not(.elementor-5 .elementor-element-3bd124c > .e-con):not(.elementor-5 .elementor-element-aa637e5 [role="tabpanel"] > .e-con):not(.elementor-5 .elementor-element-8027b21):not(.elementor-5 .elementor-element-4cbbf49):not(.elementor-3370 .epm-card-set-3370-0):not(.elementor-3406 .epm-card-set-3406-0) {
+    background: #fff !important;
+    --background-overlay: none;
+    --overlay-opacity: 0;
+}
+body.epm-home-face-white .elementor[data-elementor-type="wp-page"] > .e-con:not(:first-child)::before,
+body.epm-home-face-white .elementor[data-elementor-type="wp-page"] > .e-con:not(:first-child) .e-con:has(.elementor-widget):not(.elementor-5 .elementor-element-3bd124c > .e-con):not(.elementor-5 .elementor-element-aa637e5 [role="tabpanel"] > .e-con):not(.elementor-5 .elementor-element-8027b21):not(.elementor-5 .elementor-element-4cbbf49):not(.elementor-3370 .epm-card-set-3370-0):not(.elementor-3406 .epm-card-set-3406-0)::before {
+    background: none !important;
+}
+body.epm-home-face-white .elementor[data-elementor-type="wp-page"] > .e-con:not(:first-child) :is(.elementor-heading-title,.elementor-image-box-title,.elementor-icon-box-title) {
+    color: #17345a !important;
+    text-shadow: none !important;
+}
+body.epm-home-face-white .elementor[data-elementor-type="wp-page"] > .e-con:not(:first-child) :is(.elementor-widget-text-editor,.elementor-widget-text-editor p,.elementor-widget-text-editor li,.elementor-widget-text-editor span,.elementor-widget-text-editor strong,.elementor-image-box-description,.elementor-icon-box-description,.elementor-icon-list-text) {
+    color: #24364b !important;
+    text-shadow: none !important;
+}
+body.epm-home-face-white .elementor[data-elementor-type="wp-page"] > .e-con:not(:first-child) :is(.elementor-heading-title,.elementor-image-box-title,.elementor-icon-box-title) :is(a,span) {
+    color: inherit !important;
+}
+body.epm-home-face-white .elementor[data-elementor-type="wp-page"] > .e-con:not(:first-child) :is(.elementor-icon,.elementor-icon-list-icon) {
+    color: #274b89 !important;
+}
+body.epm-home-face-white .elementor[data-elementor-type="wp-page"] > .e-con:not(:first-child) :is(.elementor-icon,.elementor-icon-list-icon) svg {
+    fill: #274b89 !important;
+}
+
+/* SVG paths have explicit white fills that override the parent icon color. */
+body.epm-home-face-white .elementor-5 .elementor-icon-box-icon svg :is([fill="white" i],[fill="#fff" i],[fill="#ffffff" i]) {
+    fill: #274b89 !important;
+}
+
+/* Portfolio photo cards retain Elementor's images and dark overlays. */
+body.epm-home-face-white .elementor.elementor-5[data-elementor-type="wp-page"] .elementor-element-3bd124c > .e-con :is(.elementor-image-box-title,.elementor-image-box-description,.elementor-image-box-title a,.elementor-image-box-title span) {
+    color: #fff !important;
+    text-shadow: 0 1px 3px rgba(0,0,0,.65) !important;
+}
+
+/* Industry tabs: visible labels on white and original photographic panels. */
+body.epm-home-face-white .elementor-5 .elementor-element-aa637e5 .e-n-tab-title {
+    background: #fff !important;
+    color: #17345a !important;
+    border: 1px solid #e2e8f0 !important;
+}
+body.epm-home-face-white .elementor-5 .elementor-element-aa637e5 .e-n-tab-title:hover {
+    background: #f0f6ff !important;
+}
+body.epm-home-face-white .elementor-5 .elementor-element-aa637e5 .e-n-tab-title[aria-selected="true"] {
+    background: #e5322d !important;
+    color: #fff !important;
+    border-color: #e5322d !important;
+}
+body.epm-home-face-white .elementor-5 .elementor-element-aa637e5 .e-n-tab-title :is(span,i,svg) {
+    color: inherit !important;
+    fill: currentColor !important;
+}
+body.epm-home-face-white .elementor-5 .elementor-element-aa637e5 .e-n-tab-title svg :is(path,circle,rect,polygon):not([fill="none"]) {
+    fill: currentColor !important;
+}
+body.epm-home-face-white .elementor.elementor-5[data-elementor-type="wp-page"] .elementor-element-aa637e5 [role="tabpanel"] > .e-con {
+    --overlay-opacity: .65;
+    --background-overlay: '';
+    isolation: isolate;
+}
+body.epm-home-face-white .elementor.elementor-5[data-elementor-type="wp-page"] .elementor-element-aa637e5 [role="tabpanel"] > .e-con::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    z-index: 0;
+    background: #071525 !important;
+    opacity: .65 !important;
+}
+body.epm-home-face-white .elementor-5 .elementor-element-aa637e5 [role="tabpanel"] > .e-con > .e-con-inner {
+    position: relative;
+    z-index: 1;
+}
+body.epm-home-face-white .elementor.elementor-5[data-elementor-type="wp-page"] .elementor-element-aa637e5 [role="tabpanel"] :is(.elementor-heading-title,.elementor-widget-text-editor,.elementor-widget-text-editor p,.elementor-widget-text-editor span,.elementor-widget-text-editor strong) {
+    color: #fff !important;
+    text-shadow: 0 1px 3px rgba(0,0,0,.65) !important;
+}
+
+/* Invixium Design: retain the original product photo beside the white copy. */
+body.epm-home-face-white .elementor.elementor-3459 > .elementor-element-852b34c {
+    display: grid !important;
+    grid-template-columns: minmax(0,1fr) minmax(0,1fr);
+    align-items: center;
+    gap: 40px !important;
+    padding: 48px max(24px,calc((100% - 1200px)/2)) !important;
+    min-height: 0 !important;
+}
+body.epm-home-face-white .elementor.elementor-3459 .elementor-element-2344129 {
+    width: 100% !important;
+    min-width: 0;
+    padding: 0 !important;
+}
+body.epm-home-face-white .elementor.elementor-3459 > .elementor-element-852b34c::after {
+    content: "";
+    display: block;
+    position: relative;
+    width: 100%;
+    aspect-ratio: 6 / 5;
+    border-radius: 16px;
+    background: url('epm-light-assets/invixium-design.webp') right center / cover no-repeat;
+}
+@media (max-width: 767px) {
+    body.epm-home-face-white .elementor.elementor-3459 > .elementor-element-852b34c {
+        grid-template-columns: minmax(0,1fr);
+        gap: 24px !important;
+        padding: 32px 24px !important;
+    }
+}
+
+/* Enquiries: clear field boundaries and balanced spacing on white. */
+body.epm-home-face-white .elementor.elementor-5 .elementor-element-6d0984a {
+    padding: 48px max(24px,calc((100% - 1200px)/2)) !important;
+    gap: 32px 48px !important;
+    align-items: flex-start;
+}
+body.epm-home-face-white .elementor.elementor-5 .elementor-element-04e3f2f {
+    width: 100% !important;
+    padding: 0 !important;
+}
+body.epm-home-face-white .elementor.elementor-5 :is(.elementor-element-caf94bb,.elementor-element-a900260) {
+    width: calc((100% - 48px)/2) !important;
+    padding: 0 !important;
+    min-width: 0;
+}
+body.epm-home-face-white .elementor-5 .elementor-element-caf94bb .elementor-widget-text-editor {
+    text-align: left !important;
+    line-height: 1.65;
+}
+body.epm-home-face-white .elementor.elementor-5 .elementor-element-367dbf7 .elementor-field-group .elementor-field {
+    background: #f8fafc !important;
+    color: #17345a !important;
+    border: 1px solid #94a3b8 !important;
+    border-radius: 8px !important;
+    min-height: 48px;
+    padding: 12px 16px;
+    font-size: 16px;
+    box-shadow: none;
+}
+body.epm-home-face-white .elementor-5 .elementor-element-367dbf7 .elementor-field::placeholder {
+    color: #475569 !important;
+    opacity: 1 !important;
+}
+body.epm-home-face-white .elementor-5 .elementor-element-367dbf7 textarea.elementor-field {
+    min-height: 140px;
+    resize: vertical;
+}
+body.epm-home-face-white .elementor-5 .elementor-element-367dbf7 .elementor-field-group {
+    margin-bottom: 16px;
+}
+body.epm-home-face-white .elementor.elementor-5 .elementor-element-367dbf7 .elementor-button[type="submit"] {
+    background: #e5322d !important;
+    color: #fff !important;
+    border: 1px solid #e5322d !important;
+    border-radius: 8px !important;
+    min-height: 48px;
+    padding: 14px 24px;
+}
+body.epm-home-face-white .elementor-5 .elementor-element-367dbf7 .elementor-button[type="submit"]:hover {
+    background: #b92522 !important;
+    border-color: #b92522 !important;
+}
+body.epm-home-face-white .elementor-5 .elementor-element-367dbf7 :is(.elementor-field,.elementor-button):focus-visible {
+    outline: 3px solid #274b89 !important;
+    outline-offset: 3px;
+}
+body.epm-home-face-white .elementor-5 .elementor-element-367dbf7 :is(.elementor-field-label,.elementor-message) {
+    color: #17345a;
+}
+body.epm-home-face-white .elementor-5 .elementor-element-367dbf7 .elementor-message-danger {
+    color: #b91c1c;
+}
+@media (max-width: 767px) {
+    body.epm-home-face-white .elementor.elementor-5 .elementor-element-6d0984a {
+        padding: 32px 24px !important;
+        gap: 24px !important;
+    }
+    body.epm-home-face-white .elementor.elementor-5 :is(.elementor-element-caf94bb,.elementor-element-a900260) {
+        width: 100% !important;
+    }
+}
+
+/* Full Invixium page review: stable content and consistent responsive sections. */
+body.epm-home-face-white .elementor.elementor-3459 > .e-con:not(:first-child) {
+    padding: 40px max(24px,calc((100% - 1200px)/2)) !important;
+    min-height: 0 !important;
+}
+body.epm-home-face-white .elementor.elementor-3459 > .e-con:not(:first-child) .elementor-element {
+    animation: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+}
+body.epm-home-face-white .elementor.elementor-3459 > .elementor-element-5b6fc0e {
+    padding-block: 24px 0 !important;
+}
+body.epm-home-face-white .elementor-3459 .elementor-element-4519562 img {
+    width: 180px;
+    height: auto;
+    object-fit: contain;
+}
+body.epm-home-face-white .elementor.elementor-3459 > :is(.elementor-element-6620b5e,.elementor-element-e176f30,.elementor-element-e6b617d,.elementor-element-1ed537c) {
+    display: grid !important;
+    grid-template-columns: minmax(0,1fr) minmax(0,1fr);
+    gap: 40px !important;
+    align-items: center;
+}
+body.epm-home-face-white .elementor.elementor-3459 > :is(.elementor-element-6620b5e,.elementor-element-e176f30,.elementor-element-e6b617d,.elementor-element-1ed537c) > .e-con {
+    width: 100% !important;
+    padding: 0 !important;
+    min-width: 0;
+}
+body.epm-home-face-white .elementor-3459 .elementor-widget-text-editor {
+    text-align: left !important;
+}
+body.epm-home-face-white .elementor-3459 .elementor-widget-text-editor p + p {
+    margin-top: 16px;
+}
+body.epm-home-face-white .elementor-3459 .elementor-element-998dc24 img {
+    width: 100%;
+    max-height: 440px;
+    height: auto;
+    object-fit: contain;
+}
+body.epm-home-face-white .elementor.elementor-3459 > .elementor-element-e176f30::after {
+    content: "";
+    display: block;
+    width: 100%;
+    aspect-ratio: 6 / 5;
+    border-radius: 16px;
+    background: url('epm-light-assets/invixium-face-recognition.webp') 28% center / cover no-repeat;
+}
+body.epm-home-face-white .elementor.elementor-3459 > :is(.elementor-element-e6b617d,.elementor-element-1ed537c) {
+    align-items: stretch;
+    gap: 24px !important;
+    padding-block: 12px !important;
+}
+body.epm-home-face-white .elementor.elementor-3459 > :is(.elementor-element-e6b617d,.elementor-element-1ed537c) > .e-con {
+    padding: 28px !important;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+}
+body.epm-home-face-white .elementor.elementor-3459 > .elementor-element-468d2fc {
+    display: grid !important;
+    grid-template-columns: minmax(0,1fr) minmax(0,2fr) minmax(0,1fr);
+    gap: 24px !important;
+    align-items: center;
+}
+body.epm-home-face-white .elementor.elementor-3459 > .elementor-element-468d2fc > .e-con {
+    width: 100% !important;
+    min-width: 0;
+}
+body.epm-home-face-white .elementor-3459 :is(.elementor-element-44ce119,.elementor-element-5f3a944) {
+    min-height: 200px !important;
+    aspect-ratio: 1;
+}
+body.epm-home-face-white .elementor-3459 .cf-brochure-btn {
+    background: #e5322d !important;
+    color: #fff !important;
+    border-radius: 8px;
+    padding: 14px 28px;
+}
+body.epm-home-face-white .elementor-3459 .cf-brochure-btn:focus-visible {
+    outline: 3px solid #274b89;
+    outline-offset: 4px;
+}
+@media(max-width:1024px) {
+    body.epm-home-face-white .elementor.elementor-3459 > .e-con:not(:first-child) {
+        padding-inline: 24px !important;
+    }
+}
+@media(max-width:767px) {
+    body.epm-home-face-white .elementor.elementor-3459 > :is(.elementor-element-6620b5e,.elementor-element-e176f30,.elementor-element-852b34c,.elementor-element-e6b617d,.elementor-element-1ed537c,.elementor-element-468d2fc) {
+        grid-template-columns: minmax(0,1fr);
+        gap: 24px !important;
+        padding-block: 24px !important;
+    }
+    body.epm-home-face-white .elementor.elementor-3459 > :is(.elementor-element-e6b617d,.elementor-element-1ed537c) {
+        padding-block: 12px !important;
+    }
+    body.epm-home-face-white .elementor-3459 :is(.elementor-element-44ce119,.elementor-element-5f3a944) {
+        min-height: 0 !important;
+        height: 220px;
+        aspect-ratio: auto;
+    }
+    body.epm-home-face-white .elementor-3459 .elementor-element-9148c2e {grid-row: 1;}
+}
+@media(max-width:767px) {
+    body.epm-home-face-white .elementor.elementor-3459[data-elementor-type="wp-page"] {
+        --epm-content: 16px;
+        --epm-subheading: 28px;
+    }
+    body.epm-home-face-white .elementor-3459 .elementor-element-3abd2d1 h1 {
+        font-size: 32px !important;
+    }
+}
+body.epm-home-face-white .elementor-3459 .elementor-widget-text-editor p {
+    text-align: left !important;
+}
+@media(max-width:767px) {
+    body.epm-home-face-white .elementor.elementor-3459 > .e-con:not(:first-child) .elementor-heading-title {
+        font-size: 28px !important;
+        line-height: 1.2 !important;
+    }
+}
+
+/* Suprema feature cards use distinct images with readable dark overlays. */
+body.page:not(.home).epm-home-face-white .elementor.elementor.elementor-3370[data-elementor-type="wp-page"] .epm-feature-card.epm-feature-card.epm-card-set-3370-0 {
+    background: linear-gradient(rgba(7,21,37,.58),rgba(7,21,37,.68)), var(--epm-suprema-photo) center / cover no-repeat !important;
+    border: 1px solid #e2e8f0 !important;
+    border-radius: 18px !important;
+    min-height: 210px !important;
+    padding: 24px !important;
+    box-shadow: 0 4px 14px rgba(23,52,90,.10);
+}
+body.page:not(.home).epm-home-face-white .elementor.elementor.elementor-3370[data-elementor-type="wp-page"] .epm-feature-card.epm-feature-card.epm-card-set-3370-0 :is(.elementor-heading-title,.elementor-widget-text-editor,p,span,strong) {
+    color: #fff !important;
+    text-shadow: none !important;
+}
+body.epm-home-face-white .elementor-3370 .epm-card-set-3370-0,
+body.epm-home-face-white .elementor-3370 .epm-card-set-3370-0 .elementor-element {
+    animation: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+body.epm-home-face-white .elementor-3370 .elementor-element-923381b {
+    --epm-suprema-photo: url('epm-light-assets/features/c6b883ed9695.webp');
+}
+body.epm-home-face-white .elementor-3370 .elementor-element-bd340ef {
+    --epm-suprema-photo: url('epm-light-assets/features/d1aac1e81455.webp');
+}
+body.epm-home-face-white .elementor-3370 .elementor-element-7ea7c78 {
+    --epm-suprema-photo: url('epm-light-assets/features/9ad69f2b6ef5.webp');
+}
+body.epm-home-face-white .elementor-3370 .elementor-element-c013848 {
+    --epm-suprema-photo: url('epm-light-assets/features/45de09fe8615.webp');
+}
+body.epm-home-face-white .elementor-3370 .elementor-element-c4b2bd8 {
+    --epm-suprema-photo: url('epm-light-assets/features/a9904e843e92.webp');
+}
+body.epm-home-face-white .elementor-3370 .elementor-element-9f254e5 {
+    --epm-suprema-photo: url('epm-light-assets/features/1e30a128f25f.webp');
+}
+/* Screenshot review, 27 October 2026: home spacing and face-reader layouts. */
+body.epm-home-face-white .elementor.elementor-5 .elementor-element-d673eec {
+    padding-bottom: 32px !important;
+}
+body.epm-home-face-white .elementor.elementor-5 .elementor-element-acc3dd8 {
+    min-height: 0 !important;
+    padding-block: 24px 32px !important;
+    gap: 24px !important;
+}
+body.epm-home-face-white .elementor.elementor-5 :is(.elementor-element-760975e,.elementor-element-a9f23c9,.elementor-element-01efc0b) {
+    min-height: 0 !important;
+    height: auto !important;
+    margin-block: 0 !important;
+    padding-block: 0 !important;
+}
+body.epm-home-face-white .elementor.elementor-5 .elementor-element-cc76a01 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+body.epm-home-face-white .elementor-5 .elementor-element-cc76a01 img {
+    display: block;
+    height: auto;
+}
+body.epm-home-face-white .elementor.elementor-5 .elementor-element-cb61b98 {
+    padding-top: 24px !important;
+}
+/* Equal product columns and a type size that fits the longest model name. */
+body.epm-home-face-white .elementor.elementor-3370 .elementor-element-2b49a16 {
+    display: grid !important;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    gap: 24px !important;
+}
+body.epm-home-face-white .elementor-3370 .elementor-element-2b49a16 > .e-con {
+    width: 100% !important;
+    min-width: 0;
+    padding: 0 !important;
+}
+body.epm-home-face-white .elementor-3370 .elementor-element-2b49a16 .elementor-image-box-title {
+    font-size: clamp(18px,1.7vw,28px) !important;
+    line-height: 1.3 !important;
+    white-space: nowrap;
+}
+/* Separate the three feature labels from the following product heading. */
+body.epm-home-face-white .elementor.elementor-3406 .elementor-element-f73abee {
+    padding-bottom: 40px !important;
+}
+body.epm-home-face-white .elementor.elementor-3406 .elementor-element-271a9d5 {
+    padding-top: 24px !important;
+    gap: 24px !important;
+}
+/* Lists read from the same left edge; headings align at the top of each row. */
+body.epm-home-face-white .elementor.elementor-3430 .epm-feature-card {
+    justify-content: flex-start !important;
+    align-items: stretch !important;
+    min-height: 0 !important;
+    height: auto !important;
+    gap: 16px !important;
+    padding: 24px !important;
+}
+body.epm-home-face-white .elementor-3430 .epm-feature-card :is(.elementor-widget-heading,.elementor-widget-text-editor) {
+    width: 100% !important;
+    margin: 0 !important;
+    text-align: left !important;
+}
+body.epm-home-face-white .elementor-3430 .epm-feature-card ul {
+    margin: 0 !important;
+    padding-inline-start: 1.25em !important;
+    list-style-position: outside;
+    text-align: left !important;
+}
+body.epm-home-face-white .elementor-3430 .epm-feature-card li {
+    padding-left: .25em;
+    line-height: 1.6;
+}
+body.epm-home-face-white .elementor-3430 .epm-feature-card li + li { margin-top: 8px; }
+@media (max-width: 1024px) {
+    body.epm-home-face-white .elementor.elementor-3370 .elementor-element-2b49a16 {
+        grid-template-columns: repeat(2,minmax(0,1fr));
+        padding-inline: 24px !important;
+    }
+    body.epm-home-face-white .elementor-3370 .elementor-element-2b49a16 .elementor-image-box-title {
+        font-size: clamp(16px,2.8vw,26px) !important;
+    }
+}
+@media (max-width: 767px) {
+    body.epm-home-face-white .elementor.elementor-3430 .epm-feature-card { padding: 20px !important; }
+    body.epm-home-face-white .elementor.elementor-3406 .elementor-element-f73abee { padding-bottom: 24px !important; }
+    body.epm-home-face-white .elementor.elementor-3406 .elementor-element-271a9d5 { padding-top: 16px !important; }
+}
+/* Override shared inner-page centering on the specification text itself. */
+body.epm-home-face-white .elementor.elementor-3430[data-elementor-type="wp-page"] .epm-feature-card :is(.elementor-heading-title,li,p,span) {
+    text-align: left !important;
+}
+body.epm-home-face-white .elementor.elementor-3370[data-elementor-type="wp-page"] .elementor-element-2b49a16 .elementor-image-box-title {
+    font-size: clamp(18px,1.7vw,28px) !important;
+    line-height: 1.3 !important;
+}
+@media (max-width: 1024px) {
+    body.epm-home-face-white .elementor.elementor-3370[data-elementor-type="wp-page"] .elementor-element-2b49a16 .elementor-image-box-title {
+        font-size: clamp(16px,2.8vw,26px) !important;
+    }
+}
+
+/* IDEMIA Main Features: preserve imagery inside the white content section. */
+body.page:not(.home).epm-home-face-white .elementor.elementor.elementor-3406[data-elementor-type="wp-page"] .epm-feature-card.epm-feature-card.epm-card-set-3406-0 {
+    background: linear-gradient(0deg,rgba(7,21,37,.90),rgba(7,21,37,.08) 85%), var(--epm-idemia-photo) center / cover no-repeat !important;
+    border: 1px solid #e2e8f0 !important;
+    border-radius: 18px !important;
+    min-height: 260px !important;
+    padding: 24px !important;
+    justify-content: flex-end !important;
+    box-shadow: 0 4px 14px rgba(23,52,90,.10);
+    overflow: hidden;
+}
+body.page:not(.home).epm-home-face-white .elementor.elementor.elementor-3406[data-elementor-type="wp-page"] .epm-feature-card.epm-feature-card.epm-card-set-3406-0 :is(.elementor-widget-text-editor,p,span,strong) {
+    color: #fff !important;
+    font-weight: 600;
+    text-shadow: none !important;
+}
+body.epm-home-face-white .elementor-3406 .epm-card-set-3406-0,
+body.epm-home-face-white .elementor-3406 .epm-card-set-3406-0 .elementor-element {
+    animation: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+body.epm-home-face-white .elementor-3406 .elementor-element-f02de07 {
+    --epm-idemia-photo: url('epm-light-assets/features/b01c04497a0d.webp');
+}
+body.epm-home-face-white .elementor-3406 .elementor-element-3393243 {
+    --epm-idemia-photo: url('epm-light-assets/features/access-control.webp');
+}
+body.page:not(.home).epm-home-face-white .elementor.elementor.elementor-3406[data-elementor-type="wp-page"] .elementor-element-91ce407.epm-feature-card.epm-feature-card {
+    background: linear-gradient(0deg,#071525,transparent 65%), url('../uploads/2026/07/idemia-visionpass-sp-advanced-facial-recognition-access-control-device-1.webp') center 12px / auto 210px no-repeat, #dce4ed !important;
+}
+@media (min-width: 768px) {
+    body.epm-home-face-white .elementor.elementor-3406 .elementor-element-f73abee {
+        grid-template-columns: repeat(3,minmax(0,1fr)) !important;
+    }
+}
+
+
+/* Center the IDEMIA feature captions and make them easier to scan. */
+body.page:not(.home).epm-home-face-white .elementor.elementor.elementor-3406[data-elementor-type="wp-page"] .epm-feature-card.epm-feature-card.epm-card-set-3406-0 {
+    justify-content: center !important;
+}
+body.page:not(.home).epm-home-face-white .elementor.elementor.elementor-3406[data-elementor-type="wp-page"] .epm-feature-card.epm-feature-card.epm-card-set-3406-0 :is(.elementor-widget-text-editor,p,span,strong) {
+    font-size: 26px !important;
+    line-height: 1.3 !important;
+    text-align: center !important;
+    text-shadow: 0 2px 6px rgba(0,0,0,.85) !important;
+    margin-block: 0 !important;
+}
+@media (max-width: 1024px) {
+    body.page:not(.home).epm-home-face-white .elementor.elementor.elementor-3406[data-elementor-type="wp-page"] .epm-feature-card.epm-feature-card.epm-card-set-3406-0 :is(.elementor-widget-text-editor,p,span,strong) {
+        font-size: 24px !important;
+    }
+}
+
+/* Suprema model names share a baseline regardless of source image dimensions. */
+body.epm-home-face-white .elementor.elementor-3370[data-elementor-type="wp-page"] .elementor-element-2b49a16 > .e-con {
+    justify-content: flex-start !important;
+}
+body.epm-home-face-white .elementor.elementor-3370[data-elementor-type="wp-page"] .elementor-element-2b49a16 .elementor-widget-image-box {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+body.epm-home-face-white .elementor.elementor-3370[data-elementor-type="wp-page"] .elementor-element-2b49a16 .elementor-image-box-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+body.epm-home-face-white .elementor.elementor-3370[data-elementor-type="wp-page"] .elementor-element-2b49a16 .elementor-image-box-img {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 100% !important;
+    height: clamp(140px,22vw,350px) !important;
+    margin: 0 !important;
+}
+body.epm-home-face-white .elementor.elementor-3370[data-elementor-type="wp-page"] .elementor-element-2b49a16 .elementor-image-box-img img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain;
+}
+body.epm-home-face-white .elementor.elementor-3370[data-elementor-type="wp-page"] .elementor-element-2b49a16 .elementor-image-box-title {
+    margin: 0 !important;
+}

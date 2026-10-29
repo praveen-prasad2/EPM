@@ -1,0 +1,448 @@
+{
+  "2454": {
+    "35d17e2b": {
+      "asset": "epm-light-assets/features/video-analytics.webp",
+      "text": "AI-powered video analytics and surveillance intelligence"
+    },
+    "74f45ff8": {
+      "asset": "epm-light-assets/features/security-operations.webp",
+      "text": "Real-time anomaly and behavior detection"
+    },
+    "4c02a39a": {
+      "asset": "epm-light-assets/features/incident-alerts.webp",
+      "text": "Automated incident alerts and notifications"
+    },
+    "278595e8": {
+      "asset": "epm-light-assets/features/occupancy-movement.webp",
+      "text": "Occupancy and movement monitoring"
+    },
+    "3e9c6ff7": {
+      "asset": "epm-light-assets/features/workplace-safety.webp",
+      "text": "Workplace safety and compliance monitoring"
+    },
+    "6fb8135f": {
+      "asset": "epm-light-assets/features/45de09fe8615.webp",
+      "text": "Multi-site centralized video management"
+    },
+    "1dd95a0c": {
+      "asset": "epm-light-assets/features/reporting-dashboards.webp",
+      "text": "Intelligent event-based reporting and dashboards"
+    },
+    "22cf919f": {
+      "asset": "epm-light-assets/features/d1aac1e81455.webp",
+      "text": "Integration with existing CCTV and VMS platforms"
+    },
+    "84c7156": {
+      "asset": "epm-light-assets/features/62ce6390b043.webp",
+      "text": "Improve operational visibility and control"
+    },
+    "77d0be4b": {
+      "asset": "epm-light-assets/features/156dbdef794d.webp",
+      "text": "Reduce manual surveillance dependency"
+    },
+    "30f0dbc8": {
+      "asset": "epm-light-assets/features/d81effad5e5a.webp",
+      "text": "Enhance workplace safety and compliance"
+    },
+    "563f4e6c": {
+      "asset": "epm-light-assets/features/f46431ad90f0.webp",
+      "text": "Accelerate incident response times"
+    },
+    "3abacd3b": {
+      "asset": "epm-light-assets/features/1e30a128f25f.webp",
+      "text": "Enable proactive risk management"
+    },
+    "607b9570": {
+      "asset": "epm-light-assets/features/67fda15a94b9.webp",
+      "text": "Generate actionable business insights from video data"
+    },
+    "70d48585": {
+      "asset": "epm-light-assets/features/33146187ca22.webp",
+      "text": "Retail"
+    },
+    "1ba80156": {
+      "asset": "epm-light-assets/features/0fae979ae6dc.webp",
+      "text": "Manufacturing"
+    },
+    "50e99978": {
+      "asset": "epm-light-assets/features/bd5354ed2b1e.webp",
+      "text": "Healthcare"
+    },
+    "2d2eb9f8": {
+      "asset": "epm-light-assets/features/900a18679d1e.webp",
+      "text": "Commercial Buildings"
+    },
+    "9558a26": {
+      "asset": "epm-light-assets/features/access-control.webp",
+      "text": "Smart Facilities"
+    },
+    "3f05e9a4": {
+      "asset": "epm-light-assets/features/81506ffe2f5f.webp",
+      "text": "Warehousing"
+    },
+    "6e7070c4": {
+      "asset": "epm-light-assets/features/8adce78f943e.webp",
+      "text": "Education"
+    },
+    "73c3104e": {
+      "asset": "epm-light-assets/features/4b919362c883.webp",
+      "text": "Hospitality"
+    }
+  },
+  "2464": {
+    "55811055": {
+      "asset": "epm-light-assets/features/9b00860d45c9.webp",
+      "text": "Smart parking management solutions"
+    },
+    "2a5cab77": {
+      "asset": "epm-light-assets/features/dec5934a38e7.webp",
+      "text": "Automatic License Plate Recognition (ALPR/ANPR)"
+    },
+    "134385de": {
+      "asset": "epm-light-assets/features/0cb4bbe3c37a.webp",
+      "text": "AI-based vehicleidentificationand tracking"
+    },
+    "42dc1c7f": {
+      "asset": "epm-light-assets/features/video-analytics.webp",
+      "text": "Vehicle classification and analytics"
+    },
+    "49917cdc": {
+      "asset": "epm-light-assets/features/smart-parking.webp",
+      "text": "Traffic flow and congestion monitoring"
+    },
+    "15ca3c82": {
+      "asset": "epm-light-assets/features/972f42abd783.webp",
+      "text": "OCR-based recognition forvehicles and assets"
+    },
+    "5e967992": {
+      "asset": "epm-light-assets/features/reporting-dashboards.webp",
+      "text": "Vehicle whitelist and blacklistmanagement"
+    },
+    "50b99dab": {
+      "asset": "epm-light-assets/features/access-control.webp",
+      "text": "Integration with access control &amp; gate automation"
+    },
+    "2b4f36ad": {
+      "asset": "epm-light-assets/features/7c795c985d82.webp",
+      "text": "Automate vehicle access and monitoring"
+    },
+    "118388cd": {
+      "asset": "epm-light-assets/features/62ce6390b043.webp",
+      "text": "Improve traffic visibility and mobility management"
+    },
+    "2f3168a5": {
+      "asset": "epm-light-assets/features/9ad69f2b6ef5.webp",
+      "text": "Enhance transportation security and efficiency"
+    },
+    "570d957f": {
+      "asset": "epm-light-assets/features/occupancy-movement.webp",
+      "text": "Reduce operational bottlenecksand delays"
+    },
+    "331ef671": {
+      "asset": "epm-light-assets/features/1ee8a7787aa2.webp",
+      "text": "Improve parkingoperations and user experience"
+    },
+    "2bdbcad6": {
+      "asset": "epm-light-assets/features/f0344d552c29.webp",
+      "text": "Support smart city and intelligent transportation initiatives"
+    },
+    "6a9c8921": {
+      "asset": "epm-light-assets/features/900a18679d1e.webp",
+      "text": "Smart Cities"
+    },
+    "7f786f1f": {
+      "asset": "epm-light-assets/features/67fda15a94b9.webp",
+      "text": "Transportation"
+    },
+    "11013abd": {
+      "asset": "epm-light-assets/features/741623e929d5.webp",
+      "text": "Airports"
+    },
+    "7b8309a6": {
+      "asset": "epm-light-assets/features/81506ffe2f5f.webp",
+      "text": "Logistics"
+    },
+    "2f2aa80a": {
+      "asset": "epm-light-assets/features/ec0e7de4b51f.webp",
+      "text": "Parking Facilities"
+    },
+    "74610c3d": {
+      "asset": "epm-light-assets/features/ff0b7f3667c0.webp",
+      "text": "Commercial Complexes"
+    },
+    "6e86b193": {
+      "asset": "epm-light-assets/features/ports.webp",
+      "text": "Ports"
+    },
+    "173bf662": {
+      "asset": "epm-light-assets/features/af2d99660641.webp",
+      "text": "Government Infrastructure"
+    }
+  },
+  "2466": {
+    "34488295": {
+      "asset": "epm-light-assets/features/security-operations.webp",
+      "text": "Enable centralized security management across locations"
+    },
+    "55115566": {
+      "asset": "epm-light-assets/features/45de09fe8615.webp",
+      "text": "Integration with CCTV, VMS, and access control platforms"
+    },
+    "1f215ac1": {
+      "asset": "epm-light-assets/features/video-analytics.webp",
+      "text": "AI-powered surveillance and threat detection"
+    },
+    "38b10b20": {
+      "asset": "epm-light-assets/features/access-control.webp",
+      "text": "Intelligent perimeter monitoring"
+    },
+    "647f8fc0": {
+      "asset": "epm-light-assets/features/smart-parking.webp",
+      "text": "Vehicle-based access control automation"
+    },
+    "1d93edf1": {
+      "asset": "epm-light-assets/features/dec5934a38e7.webp",
+      "text": "License plate-based gate entry systems"
+    },
+    "2c5e39af": {
+      "asset": "epm-light-assets/features/incident-alerts.webp",
+      "text": "Real-time incident and intrusion alerts"
+    },
+    "3a594d3d": {
+      "asset": "epm-light-assets/features/0cb4bbe3c37a.webp",
+      "text": "Blacklist and whitelist vehicle management"
+    },
+    "2fe700db": {
+      "asset": "epm-light-assets/features/reporting-dashboards.webp",
+      "text": "Centralized monitoring and reporting dashboards"
+    },
+    "b4f8ec6": {
+      "asset": "epm-light-assets/features/156dbdef794d.webp",
+      "text": "Enhance physical security and situational awareness"
+    },
+    "7a4b7da5": {
+      "asset": "epm-light-assets/features/occupancy-movement.webp",
+      "text": "Automate security monitoring and access workflows"
+    },
+    "1688b186": {
+      "asset": "epm-light-assets/features/62ce6390b043.webp",
+      "text": "Improve response time to security incidents"
+    },
+    "251b70cf": {
+      "asset": "epm-light-assets/features/0218c3b7c7f5.webp",
+      "text": "Reduce unauthorized access risks"
+    },
+    "231da8c3": {
+      "asset": "epm-light-assets/features/1e30a128f25f.webp",
+      "text": "Strengthen perimeter protection and monitoring"
+    },
+    "ac8d812": {
+      "asset": "epm-light-assets/features/900a18679d1e.webp",
+      "text": "Corporate Campuses"
+    },
+    "5e13eb40": {
+      "asset": "epm-light-assets/features/ff0b7f3667c0.webp",
+      "text": "Residential Communities"
+    },
+    "728e1bf3": {
+      "asset": "epm-light-assets/features/workplace-safety.webp",
+      "text": "Industrial Facilities"
+    },
+    "a683b2e": {
+      "asset": "epm-light-assets/features/af2d99660641.webp",
+      "text": "Government Buildings"
+    },
+    "38fd174b": {
+      "asset": "epm-light-assets/features/d1aac1e81455.webp",
+      "text": "Critical Infrastructure"
+    },
+    "4e6a7403": {
+      "asset": "epm-light-assets/features/81506ffe2f5f.webp",
+      "text": "Logistics Hubs"
+    },
+    "fae5c80": {
+      "asset": "epm-light-assets/features/67fda15a94b9.webp",
+      "text": "Commercial Towers"
+    },
+    "5329ebfe": {
+      "asset": "epm-light-assets/features/f0344d552c29.webp",
+      "text": "Data Centers"
+    }
+  },
+  "2883": {
+    "8654746": {
+      "asset": "epm-light-assets/features/900a18679d1e.webp",
+      "text": "Elevator control"
+    },
+    "5a85a350": {
+      "asset": "epm-light-assets/features/security-operations.webp",
+      "text": "Live control"
+    },
+    "ec3a996": {
+      "asset": "epm-light-assets/features/video-analytics.webp",
+      "text": "Visual monitoring"
+    },
+    "6bae96af": {
+      "asset": "epm-light-assets/features/reporting-dashboards.webp",
+      "text": "Alarm management"
+    },
+    "4305e30f": {
+      "asset": "epm-light-assets/features/incident-alerts.webp",
+      "text": "Realtime notification"
+    },
+    "76b18858": {
+      "asset": "epm-light-assets/features/f46431ad90f0.webp",
+      "text": "Event log"
+    },
+    "7ef57b73": {
+      "asset": "epm-light-assets/features/45de09fe8615.webp",
+      "text": "Audit log"
+    },
+    "cc22c78": {
+      "asset": "epm-light-assets/features/access-control.webp",
+      "text": "Local Anti-Pass-Back"
+    },
+    "68623c5": {
+      "asset": "epm-light-assets/features/a9904e843e92.webp",
+      "text": "Token based Global Anti-Pass Back"
+    },
+    "a123f77": {
+      "asset": "epm-light-assets/features/ff0b7f3667c0.webp",
+      "text": "Toggle access mode"
+    },
+    "d301855": {
+      "asset": "epm-light-assets/features/occupancy-movement.webp",
+      "text": "Two-man rule"
+    },
+    "21808c0": {
+      "asset": "epm-light-assets/features/1e30a128f25f.webp",
+      "text": "Template-on-card"
+    }
+  },
+  "2925": {
+    "557813d": {
+      "asset": "epm-light-assets/features/security-operations.webp",
+      "text": "Monitor &amp; control. Stay updated in real time."
+    },
+    "04d5438": {
+      "asset": "epm-light-assets/features/ff0b7f3667c0.webp",
+      "text": "Managing your security during the lifetime of AEOS"
+    },
+    "7e4db4d": {
+      "asset": "epm-light-assets/features/reporting-dashboards.webp",
+      "text": "Analyze your data"
+    }
+  },
+  "3196": {
+    "2725882": {
+      "asset": "epm-light-assets/features/reporting-dashboards.webp",
+      "text": "Detailed Logs Always at Your Fingertips"
+    },
+    "886c4ef": {
+      "asset": "epm-light-assets/features/f46431ad90f0.webp",
+      "text": "Web-Based Application For Ease of Use"
+    },
+    "66f4d7b": {
+      "asset": "epm-light-assets/features/d1aac1e81455.webp",
+      "text": "Cloud-Ready System Built for Tomorrow"
+    },
+    "35cb627": {
+      "asset": "epm-light-assets/features/1e30a128f25f.webp",
+      "text": "High-Level Security and Encryption Complies with Guidelines and Protects Users"
+    },
+    "e135005": {
+      "asset": "epm-light-assets/features/incident-alerts.webp",
+      "text": "Notifications Help Keep You on Top of Your System’s Needs"
+    },
+    "16d6a7a": {
+      "asset": "epm-light-assets/features/occupancy-movement.webp",
+      "text": "Language Options Enhance Global Usability"
+    },
+    "707b8ba": {
+      "asset": "epm-light-assets/features/security-operations.webp",
+      "text": "Backed By the Support of Expert Software Engineers"
+    }
+  },
+  "3221": {
+    "2431566": {
+      "asset": "epm-light-assets/features/f0344d552c29.webp",
+      "text": "Multi communication server"
+    },
+    "8b4e9d6": {
+      "asset": "epm-light-assets/features/security-operations.webp",
+      "text": "One screen for total awareness and action."
+    },
+    "2a66626": {
+      "asset": "epm-light-assets/features/d1aac1e81455.webp",
+      "text": "Infrastructure that grows stronger as you scale."
+    },
+    "144e8a2": {
+      "asset": "epm-light-assets/features/45de09fe8615.webp",
+      "text": "No limits to integrate with BioStar X."
+    },
+    "967ce6e": {
+      "asset": "epm-light-assets/features/occupancy-movement.webp",
+      "text": "Access groups"
+    },
+    "6d117c2": {
+      "asset": "epm-light-assets/features/access-control.webp",
+      "text": "Access levels"
+    },
+    "55fba34": {
+      "asset": "epm-light-assets/features/900a18679d1e.webp",
+      "text": "Floor levels"
+    },
+    "1a28442": {
+      "asset": "epm-light-assets/features/f46431ad90f0.webp",
+      "text": "Schedules"
+    },
+    "f7d5d36": {
+      "asset": "epm-light-assets/features/ff0b7f3667c0.webp",
+      "text": "Holidays"
+    },
+    "37e4dba": {
+      "asset": "epm-light-assets/features/a9904e843e92.webp",
+      "text": "Access audits"
+    },
+    "9bcd417": {
+      "asset": "epm-light-assets/features/1e30a128f25f.webp",
+      "text": "Granular Access permitions"
+    },
+    "3622efa": {
+      "asset": "epm-light-assets/features/2e446f7897ba.webp",
+      "text": "End-to-end encryptions"
+    },
+    "7ffb1c1": {
+      "asset": "epm-light-assets/features/workplace-safety.webp",
+      "text": "Global compliance ready"
+    },
+    "fe1f880": {
+      "asset": "epm-light-assets/features/0fae979ae6dc.webp",
+      "text": "Failover clustering(TBA)"
+    },
+    "3b85d5e": {
+      "asset": "epm-light-assets/features/reporting-dashboards.webp",
+      "text": "Comprehensive audit trails and reporting"
+    },
+    "b46d275": {
+      "asset": "epm-light-assets/features/6b8d44e3c5e1.webp",
+      "text": "Secure tamper on Suprema devices"
+    },
+    "72c4824": {
+      "asset": "epm-light-assets/features/62ce6390b043.webp",
+      "text": "Custom dashboard"
+    },
+    "80a28bb": {
+      "asset": "epm-light-assets/features/156dbdef794d.webp",
+      "text": "Saved report templates"
+    },
+    "d516d19": {
+      "asset": "epm-light-assets/features/incident-alerts.webp",
+      "text": "Scheduled report delivery"
+    },
+    "13c2269": {
+      "asset": "epm-light-assets/features/67fda15a94b9.webp",
+      "text": "CSV &amp; PDF export"
+    }
+  }
+}

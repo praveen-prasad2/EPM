@@ -1,0 +1,132 @@
+/* Shared feature/benefit card typography; section and hero headings are excluded. */
+body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-feature-card {
+    --epm-subheading: 24px;
+    --epm-content: 18px;
+}
+/* Extra specificity keeps the shared size above older page-specific overrides. */
+body:not(.home) .elementor.elementor[data-elementor-type="wp-page"] .epm-feature-card.epm-feature-card :is(.elementor-heading-title, .elementor-image-box-title, .elementor-icon-box-title) {
+    font-size: 24px !important;
+    line-height: 1.2 !important;
+}
+body:not(.home) .elementor.elementor[data-elementor-type="wp-page"] .epm-feature-card.epm-feature-card :is(.elementor-widget-text-editor, .elementor-widget-text-editor p, .elementor-widget-text-editor li, .elementor-widget-text-editor span, .elementor-image-box-description, .elementor-icon-box-description, .elementor-icon-list-text) {
+    font-size: 18px !important;
+    line-height: 1.6 !important;
+}
+
+/* Compact labels in the five Touch Screens feature cards. */
+body.page-id-1594:not(.home) .elementor.elementor-1594[data-elementor-type="wp-page"] .epm-feature-card.epm-card-set-1594-0 .elementor-heading-title {
+    font-size: 18px !important;
+    line-height: 1.4 !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+    white-space: normal !important;
+}
+body.page-id-1594:not(.home) .elementor.elementor-1594[data-elementor-type="wp-page"] .epm-feature-card.epm-card-set-1594-0 {
+    padding-inline: 16px !important;
+}
+
+/* Inner-page feature/benefit cards. Groups retain their original content and colors. */
+body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-feature-grid {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    --epm-visible-columns: var(--epm-card-columns, 4);
+    grid-template-rows: none !important;
+    grid-auto-rows: 1fr;
+    gap: 20px !important;
+    align-items: stretch !important;
+    justify-items: stretch !important;
+    width: 100% !important;
+    max-width: none !important;
+    min-height: 0 !important;
+    margin-inline: 0 !important;
+    padding-inline: 0 !important;
+    padding-block: 10px !important;
+}
+body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-feature-grid:has(.epm-feature-grid-heading) { grid-auto-rows: auto; }
+body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-feature-grid-outer {
+    padding-inline: max(24px, calc((100% - 1200px) / 2)) !important;
+}
+.epm-feature-columns-1 { --epm-card-columns: 1; }
+.epm-feature-columns-2 { --epm-card-columns: 2; }
+.epm-feature-columns-3 { --epm-card-columns: 3; }
+.epm-feature-columns-4 { --epm-card-columns: 4; }
+.epm-feature-columns-5 { --epm-card-columns: 5; }
+body:not(.home) .elementor[data-elementor-type="wp-page"] :is(.epm-feature-path, .epm-feature-path > .e-con-inner, .epm-feature-grid > .e-con-inner) {
+    display: contents !important;
+}
+body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-feature-grid-heading {
+    grid-column: 1 / -1;
+    flex: 0 0 100% !important;
+    width: 100% !important;
+}
+body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-feature-card {
+    box-sizing: border-box !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    align-self: stretch !important;
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0 !important;
+    flex: 0 0 calc((100% - (var(--epm-visible-columns, 4) - 1) * 20px) / var(--epm-visible-columns, 4)) !important;
+    height: auto !important;
+    min-height: var(--epm-card-height, 140px) !important;
+    margin: 0 !important;
+    padding: 24px !important;
+    gap: 12px !important;
+    text-align: center !important;
+}
+body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-feature-card :is(.e-con, .e-con-inner, .elementor-widget, .elementor-widget-container) {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    align-self: center !important;
+}
+body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-feature-card :is(.elementor-widget-text-editor, .elementor-heading-title, .elementor-image-box-content, .elementor-icon-box-content, p, div, span, li, h2, h3, h4, h5, h6) {
+    text-align: center !important;
+}
+body:not(.home) .epm-feature-card p { margin-block: 0 8px !important; }
+body:not(.home) .epm-feature-card p:last-child { margin-bottom: 0 !important; }
+body:not(.home) .epm-feature-card .elementor-icon-list-item { justify-content: center !important; }
+@media (max-width: 1024px) {
+    body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-feature-grid { --epm-visible-columns: 2; }
+}
+@media (max-width: 767px) {
+    body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-feature-grid { --epm-visible-columns: 1; gap: 16px !important; }
+    body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-feature-grid-outer { padding-inline: 16px !important; }
+    body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-feature-card { padding: 20px !important; min-height: var(--epm-card-height, 100px) !important; }
+}
+/* Shared cards only: keep hero and section typography intact. */
+body.page:not(.home)
+.elementor.elementor.elementor[data-elementor-type="wp-page"]
+.epm-feature-card.epm-feature-card {
+    --epm-subheading: 18px;
+    --epm-content: 18px;
+    height: auto !important;
+    min-height: 110px !important;
+    max-height: none !important;
+    align-self: stretch !important;
+    box-sizing: border-box !important;
+}
+
+body.page:not(.home)
+.elementor.elementor.elementor[data-elementor-type="wp-page"]
+.epm-feature-card.epm-feature-card
+:is(.elementor-heading-title, .elementor-heading-title *,
+    .elementor-image-box-title, .elementor-image-box-title *,
+    .elementor-icon-box-title, .elementor-icon-box-title *,
+    .elementor-widget-text-editor, .elementor-widget-text-editor *,
+    .elementor-image-box-description, .elementor-icon-box-description,
+    .elementor-icon-list-text) {
+    font-size: 18px !important;
+    line-height: 1.5 !important;
+    white-space: normal !important;
+    word-break: normal !important;
+    overflow-wrap: break-word !important;
+}
+

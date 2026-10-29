@@ -1,0 +1,349 @@
+/* This stylesheet is enqueued only on inner pages. No color or font-family overrides. */
+body:not(.home) .elementor[data-elementor-type="wp-page"] {
+    --epm-heading: 60px;
+    --epm-subheading: 40px;
+    --epm-content: 18px;
+}
+body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-page-heading .elementor-heading-title {
+    font-size: var(--epm-heading) !important;
+    line-height: 1.2 !important;
+}
+body:not(.home) .elementor[data-elementor-type="wp-page"] :is(.epm-sub-heading .elementor-heading-title,.elementor-image-box-title,.elementor-icon-box-title,.elementor-post__title,.table-title) {
+    font-size: var(--epm-subheading) !important;
+    line-height: 1.2 !important;
+}
+body:not(.home) .elementor[data-elementor-type="wp-page"] :is(.epm-content-heading .elementor-heading-title,.elementor-widget-text-editor,.elementor-widget-text-editor p,.elementor-widget-text-editor li,.elementor-widget-text-editor span,.elementor-widget-html p,.elementor-widget-html li,.elementor-widget-html .cta,.elementor-image-box-description,.elementor-icon-box-description,.elementor-icon-list-text,.elementor-button,.cf-brochure-btn,.elementor-post__excerpt,td,th,label,input,textarea,select,button) {
+    font-size: var(--epm-content) !important;
+    line-height: 1.6 !important;
+}
+body:not(.home) .elementor[data-elementor-type="wp-page"] :is(.elementor-heading-title,.elementor-image-box-title,.elementor-icon-box-title,p,li,td,th) {
+    overflow-wrap: anywhere;
+}
+body:not(.home) .elementor[data-elementor-type="wp-page"] :is(.e-con,.elementor-widget,.elementor-widget-container,.elementor-image-box-content,.elementor-icon-box-content) {
+    min-width: 0;
+}
+body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-numberless-card {
+    padding: 24px !important;
+    justify-content: center;
+    align-items: stretch;
+    height: auto;
+}
+body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-numberless-card > .elementor-widget {
+    width: 100% !important;
+    max-width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    align-self: stretch;
+}
+body:not(.home) .elementor[data-elementor-type="wp-page"] :is(.custom-table-wrapper,.spec-table,.ribbon-table-wrapper,.table-wrap,.table-wrapper,.consumables-wrapper) {
+    max-width: 100%;
+    overflow-x: auto;
+}
+body:not(.home) .elementor[data-elementor-type="wp-page"] .elementor-widget-html:has(table) {
+    width: 100%;
+    max-width: 100%;
+    margin-inline: 0;
+}
+/* Printer intro and application columns previously exceeded their available row width. */
+body:not(.home) .elementor-4154 .elementor-element.elementor-element-4e7e3e43 {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    padding-inline: 150px;
+}
+body:not(.home) .elementor-4334 :is(.elementor-element.elementor-element-35ac34f2,.elementor-element.elementor-element-5aaaa5f5) {
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    padding-inline: 150px;
+}
+body:not(.home) :is(.elementor-4154 .elementor-element-4e7e3e43,.elementor-4334 .elementor-element-35ac34f2,.elementor-4334 .elementor-element-5aaaa5f5) > .e-con {
+    width: auto;
+    max-width: 100%;
+    margin-inline: 0;
+}
+@media (max-width: 1024px) {
+    body:not(.home) :is(.elementor-4154 .elementor-element.elementor-element-4e7e3e43,.elementor-4334 .elementor-element.elementor-element-35ac34f2,.elementor-4334 .elementor-element.elementor-element-5aaaa5f5) {
+        padding-inline: 20px;
+    }
+    /* These printer pages use fixed desktop columns and large nested offsets. */
+    body:not(.home) :is(.elementor-4154,.elementor-4198,.elementor-4240,.elementor-4311,.elementor-4334) .e-con.e-con {
+        width: 100%;
+        max-width: 100%;
+        flex-direction: column;
+        margin-inline: 0;
+        padding-inline: 16px;
+    }
+    body:not(.home) :is(.elementor-4154,.elementor-4198,.elementor-4240,.elementor-4311,.elementor-4334) .elementor-widget.elementor-widget {
+        max-width: 100%;
+        margin-inline: 0;
+    }
+    body:not(.home) :is(.elementor-4154,.elementor-4198,.elementor-4240,.elementor-4311,.elementor-4334) .elementor-widget-image.elementor-widget-image img {
+        max-width: 100%;
+        height: auto;
+    }
+    body:not(.home) .elementor-4154 .elementor-element.elementor-element-4e7e3e43 {
+        grid-template-columns: minmax(0,1fr);
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Header presentation on inner pages only; its shared source and Home remain untouched. */
+    body:not(.home) .elementor-12 .elementor-element.elementor-element-1c14614 {
+        padding-inline: 24px;
+        align-items: center;
+    }
+    body:not(.home) .elementor-12 .elementor-element.elementor-element-b71ea89 {
+        width: 110px;
+        flex-shrink: 0;
+    }
+    body:not(.home) .elementor-12 .elementor-element.elementor-element-a251090 {
+        flex: 1;
+        min-width: 0;
+        min-height: 0;
+    }
+    body:not(.home) .elementor-12 .elementor-element.elementor-element-adb7cf4 {
+        width: 130px;
+        flex-shrink: 0;
+    }
+}
+body:not(.home) .elementor[data-elementor-type="wp-page"] .cf-brochure-btn {
+    max-width: 100%;
+    white-space: normal;
+    text-align: center;
+}
+@media (max-width: 767px) {
+    body:not(.home) :is(.elementor-4154 .elementor-element.elementor-element-4e7e3e43,.elementor-4334 .elementor-element.elementor-element-35ac34f2,.elementor-4334 .elementor-element.elementor-element-5aaaa5f5) {
+        grid-template-columns: minmax(0,1fr);
+        padding-inline: 10px;
+    }
+    body:not(.home) .elementor-4334 .elementor-element-43973987 img {
+        max-width: 100%;
+        height: auto;
+    }
+    body:not(.home) .elementor[data-elementor-type="wp-page"] {
+        --epm-heading: 25px;
+        --epm-subheading: 20px;
+        --epm-content: 12px;
+    }
+    body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-numberless-card {
+        padding: 16px !important;
+    }
+    body:not(.home) .elementor[data-elementor-type="wp-page"] :is(.e-con,.elementor-widget) {
+        max-width: 100%;
+    }
+    body:not(.home) .elementor[data-elementor-type="wp-page"] .elementor-widget-html form div {
+        min-width: 0 !important;
+    }
+    body:not(.home) .elementor[data-elementor-type="wp-page"] .elementor-widget-html form > div:first-child {
+        flex-direction: column;
+    }
+    /* Wireless Readers: remove the old negative mobile offset from the frequency cards. */
+    body:not(.home) .elementor-3672 .elementor-element.elementor-element-50ee5721,
+    body:not(.home) .elementor-3672 .elementor-element.elementor-element-50ee5721 > .e-con {
+        width: 100%;
+        margin-inline: 0;
+    }
+}
+
+/* Consistent HTML tables and product specification cards (inner pages only). */
+body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-table-section,
+body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-spec-shell {
+    padding-inline: max(24px, calc((100% - 1140px) / 2)) !important;
+}
+body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-table-path,
+body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-table-section > .e-con-inner {
+    width: 100% !important;
+    max-width: none !important;
+    margin-inline: 0 !important;
+    padding-inline: 0 !important;
+}
+body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-html-table {
+    width: 100% !important;
+    max-width: 1140px !important;
+    min-width: 0 !important;
+    margin-inline: auto !important;
+    padding-inline: 0 !important;
+    align-self: center !important;
+}
+body:not(.home) .epm-html-table :is(.elementor-widget-container,.wrap,.table-wrap,.table-wrapper,.spec-table,.custom-table-wrapper,.ribbon-table-wrapper,.consumables-wrapper,.chromxpert-table-wrapper) {
+    box-sizing: border-box;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    margin-inline: 0 !important;
+    padding-inline: 0 !important;
+}
+body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-html-table table {
+    display: table !important;
+    box-sizing: border-box;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    border-collapse: collapse !important;
+    table-layout: fixed !important;
+    font-size: var(--epm-content) !important;
+    line-height: 1.6 !important;
+}
+body:not(.home) .epm-html-table thead { display: table-header-group !important; }
+body:not(.home) .epm-html-table tbody { display: table-row-group !important; }
+body:not(.home) .epm-html-table tr { display: table-row !important; }
+body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-html-table :is(th,td) {
+    display: table-cell !important;
+    box-sizing: border-box;
+    width: auto !important;
+    min-width: 0 !important;
+    padding: 14px 16px !important;
+    text-align: left !important;
+    vertical-align: top !important;
+    white-space: normal !important;
+    overflow-wrap: anywhere !important;
+    word-break: normal !important;
+    font-size: var(--epm-content) !important;
+    line-height: 1.6 !important;
+}
+body:not(.home) .epm-html-table :is(td,th)::before { display: none !important; }
+body:not(.home) .epm-html-table :is(td,th) :is(p,span,strong,b,a,div) {
+    font-size: inherit !important;
+    line-height: inherit !important;
+}
+body:not(.home) .epm-html-table th[colspan] { text-align: center !important; }
+body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-spec-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3,minmax(0,1fr)) !important;
+    grid-template-rows: auto !important;
+    grid-auto-rows: 1fr;
+    gap: 28px !important;
+    align-items: stretch !important;
+    width: 100% !important;
+    min-height: 0 !important;
+    padding-inline: 0 !important;
+    margin-inline: auto !important;
+}
+body:not(.home) .elementor[data-elementor-type="wp-page"] > .epm-spec-grid {
+    padding-inline: max(24px, calc((100% - 1140px) / 2)) !important;
+}
+body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-spec-card {
+    display: grid !important;
+    grid-template-rows: minmax(48px,auto) 1px 1fr !important;
+    grid-template-columns: minmax(0,1fr) !important;
+    gap: 16px !important;
+    width: auto !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    min-height: 420px !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 16px !important;
+    border-width: 2px !important;
+    border-radius: 30px !important;
+    align-self: stretch !important;
+    text-align: left !important;
+}
+body:not(.home) .epm-spec-card > .elementor-widget {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    align-self: start !important;
+    text-align: left !important;
+}
+body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-spec-card .epm-spec-title .elementor-heading-title {
+    font-size: var(--epm-subheading) !important;
+    line-height: 1.2 !important;
+    text-align: left !important;
+    margin: 0 !important;
+}
+body:not(.home) .epm-spec-card .elementor-divider {
+    padding: 0 !important;
+    margin: 0 !important;
+    line-height: 0 !important;
+}
+body:not(.home) .epm-spec-card .elementor-divider-separator { width: 100% !important; border-top-width: 1px !important; }
+body:not(.home) .epm-spec-card .epm-spec-body,
+body:not(.home) .epm-spec-card .epm-spec-body :is(p,div,li,span) {
+    font-size: var(--epm-content) !important;
+    line-height: 1.6 !important;
+    text-align: left !important;
+}
+body:not(.home) .epm-spec-card .epm-spec-body p:first-child { margin-top: 0 !important; }
+body:not(.home) .epm-spec-card .epm-spec-body p { margin-top: 0 !important; margin-bottom: 8px !important; }
+body:not(.home) .epm-spec-card .epm-spec-body p:last-child { margin-bottom: 0 !important; }
+body:not(.home) .epm-spec-card .epm-spec-body strong { font-size: inherit !important; line-height: inherit !important; }
+@media (max-width:1024px) {
+    body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-spec-grid {
+        grid-template-columns: repeat(2,minmax(0,1fr)) !important;
+    }
+}
+@media (max-width:767px) {
+    body:not(.home) .elementor[data-elementor-type="wp-page"] :is(.epm-table-section,.epm-spec-shell),
+    body:not(.home) .elementor[data-elementor-type="wp-page"] > .epm-spec-grid {
+        padding-inline: 16px !important;
+    }
+    body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-html-table :is(th,td) {
+        padding: 8px !important;
+    }
+    body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-spec-grid {
+        grid-template-columns: minmax(0,1fr) !important;
+        grid-auto-rows: auto;
+        gap: 16px !important;
+    }
+    body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-spec-card {
+        grid-template-rows: auto 1px 1fr !important;
+        min-height: 0 !important;
+        padding: 16px !important;
+        gap: 20px !important;
+    }
+}
+
+/* Boxed Elementor wrappers must not narrow the second specification row. */
+body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-spec-shell > .e-con-inner {
+    width: 100% !important;
+    max-width: none !important;
+    padding-inline: 0 !important;
+    margin-inline: 0 !important;
+}
+
+/* Keep incomplete rows balanced after removing repeated specification cards. */
+@media (min-width:768px) {
+    body:not(.home) .elementor[data-elementor-type="wp-page"] .epm-spec-grid:has(> .epm-spec-card:nth-child(2):last-child) {
+        grid-template-columns: repeat(2,minmax(0,1fr)) !important;
+    }
+}
+
+/* WebTA: keep the presentation and contact actions equal, with single-line labels. */
+body:not(.home) .elementor-3314[data-elementor-type="wp-page"] .elementor-element.elementor-element-64dfb409 {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 280px)) !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 20px !important;
+    padding-inline: 16px !important;
+}
+body:not(.home) .elementor-3314[data-elementor-type="wp-page"] .elementor-element-64dfb409 > .elementor-widget {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+body:not(.home) .elementor-3314[data-elementor-type="wp-page"] .elementor-element-64dfb409 :is(.elementor-button, .cf-brochure-btn) {
+    box-sizing: border-box !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    height: 56px !important;
+    min-height: 56px !important;
+    padding: 12px 20px !important;
+    margin: 0 !important;
+    white-space: nowrap !important;
+    text-align: center !important;
+}
+body:not(.home) .elementor-3314[data-elementor-type="wp-page"] .elementor-element-64dfb409 :is(.elementor-button-content-wrapper, .elementor-button-text, .cf-btn-text) {
+    white-space: nowrap !important;
+    line-height: 1.2 !important;
+}
+@media (max-width: 639px) {
+    body:not(.home) .elementor-3314[data-elementor-type="wp-page"] .elementor-element.elementor-element-64dfb409 {
+        grid-template-columns: minmax(0, 280px) !important;
+        gap: 16px !important;
+    }
+}

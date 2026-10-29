@@ -1,0 +1,38 @@
+/* Shared photographic treatment for the existing compact feature cards. */
+body.epm-premium-light .elementor.elementor .epm-feature-photo.epm-feature-photo {
+ background-color:#102A43!important;
+ background-image:linear-gradient(135deg,rgba(7,19,34,.64),rgba(7,19,34,.82)),var(--epm-feature-bg)!important;
+ background-position:center!important;
+ background-size:cover!important;
+ background-repeat:no-repeat!important;
+ border:1px solid rgba(255,255,255,.16)!important;
+ border-radius:20px!important;
+ box-shadow:0 8px 24px rgba(16,42,67,.10)!important;
+ color:#fff!important;
+ min-height:170px!important;
+ padding:24px!important;
+ display:flex!important;
+ align-items:center!important;
+ justify-content:center!important;
+ text-shadow:none;
+ overflow:hidden;
+ transition:transform .25s ease,box-shadow .25s ease;
+}
+body.epm-premium-light .elementor.elementor .epm-feature-photo.epm-feature-photo::before {background:none!important;}
+body.epm-premium-light .elementor.elementor .epm-feature-photo.epm-feature-photo:hover {
+ transform:translateY(-3px);
+ box-shadow:0 13px 30px rgba(16,42,67,.17)!important;
+}
+body.epm-premium-light .elementor.elementor .epm-feature-photo.epm-feature-photo :is(.elementor-widget-container,.e-con,.e-con-inner) {background-color:transparent!important;background-image:none!important;}
+body.epm-premium-light .elementor.elementor .epm-feature-photo.epm-feature-photo,
+body.epm-premium-light .elementor.elementor .epm-feature-photo.epm-feature-photo :is(p,span,li,a,strong,b,h2,h3,h4,h5,h6,.elementor-widget-text-editor,.elementor-heading-title,.elementor-icon-box-title,.elementor-icon-box-description,.elementor-image-box-title,.elementor-image-box-description,.elementor-icon-list-text) {
+ color:#fff!important;
+}
+body.epm-premium-light .elementor.elementor .epm-feature-photo.epm-feature-photo :is(.elementor-icon,.elementor-icon i,.elementor-icon-list-icon i) {color:#fff!important;}
+body.epm-premium-light .elementor.elementor .epm-feature-photo.epm-feature-photo :is(.elementor-icon svg,.elementor-icon-list-icon svg) {fill:#fff!important;}
+@media(max-width:767px){
+ body.epm-premium-light .elementor.elementor .epm-feature-photo.epm-feature-photo {min-height:150px!important;padding:22px!important;border-radius:16px!important;}
+}
+@media(prefers-reduced-motion:reduce){
+ body.epm-premium-light .elementor.elementor .epm-feature-photo.epm-feature-photo {transition:none!important;transform:none!important;}
+}
