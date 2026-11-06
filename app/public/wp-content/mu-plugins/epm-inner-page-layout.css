@@ -1,5 +1,5 @@
 /* This stylesheet is enqueued only on inner pages. No color or font-family overrides. */
-body:not(.home) .elementor[data-elementor-type="wp-page"] {
+body:not(.home) :is(.elementor[data-elementor-type="wp-page"], .epm-idemia) {
     --epm-heading: 60px;
     --epm-subheading: 40px;
     --epm-content: 18px;
@@ -118,7 +118,7 @@ body:not(.home) .elementor[data-elementor-type="wp-page"] .cf-brochure-btn {
         max-width: 100%;
         height: auto;
     }
-    body:not(.home) .elementor[data-elementor-type="wp-page"] {
+    body:not(.home) :is(.elementor[data-elementor-type="wp-page"], .epm-idemia) {
         --epm-heading: 25px;
         --epm-subheading: 20px;
         --epm-content: 12px;

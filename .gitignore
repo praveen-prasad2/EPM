@@ -58,6 +58,10 @@
 !/app/public/wp-content/mu-plugins/epm-sitewide-images.json
 !/app/public/wp-content/mu-plugins/epm-sitewide.css
 !/app/public/wp-content/mu-plugins/epm-sitewide.php
+!/app/public/wp-content/mu-plugins/epm-idemia.php
+!/app/public/wp-content/mu-plugins/epm-idemia.css
+!/app/public/wp-content/mu-plugins/epm-light-assets/idemia/
+!/app/public/wp-content/mu-plugins/epm-light-assets/idemia/*.png
 !/app/public/wp-content/mu-plugins/epm-light-assets/biostarx-logo.png
 !/app/public/wp-content/mu-plugins/epm-light-assets/features/0218c3b7c7f5.webp
 !/app/public/wp-content/mu-plugins/epm-light-assets/features/04243e1488fe.webp

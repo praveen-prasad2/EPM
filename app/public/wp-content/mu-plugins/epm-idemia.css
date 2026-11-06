@@ -1,0 +1,59 @@
+/* This presentation is intentionally scoped to the IDEMIA page. */
+body.page-id-3263 .epm-idemia {background:#fff;color:#222;font-family:Montserrat,Arial,sans-serif;font-size:var(--epm-content);line-height:1.6;}
+.epm-idemia *, .epm-idemia *::before, .epm-idemia *::after {box-sizing:border-box;}
+.epm-idemia :is(h1,h2,h3,p) {margin:0;}
+.epm-idemia .epm-idemia-wrap {width:min(1200px,calc(100% - 64px));margin-inline:auto;}
+.epm-idemia .epm-idemia-hero {position:relative;min-height:440px;height: min(54vw,780px);overflow:hidden;display:flex;align-items:center;background:#172027;}
+.epm-idemia-hero > img {position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;}
+.epm-idemia-hero::after {content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,12,20,.3),transparent 65%);pointer-events:none;}
+.epm-idemia .epm-idemia-hero-inner {position:relative;z-index:1;width:min(1440px,calc(100% - 120px));margin:auto;}
+.epm-idemia .epm-idemia-hero h1 {font-size:var(--epm-heading);font-weight:600;line-height:1.2;color:#fff;}
+.epm-idemia .epm-idemia-intro {padding-block:42px 54px;text-align:center;}
+.epm-idemia .epm-idemia-brand {height:94px;width:310px;max-width:80%;overflow:hidden;position:relative;margin:0 auto 44px;}
+.epm-idemia-brand img {position:absolute;display:block;width:100%;max-width:none;height:auto;left:0;top:50%;transform:translateY(-50%);}
+.epm-idemia .epm-idemia-eyebrow,.epm-idemia .epm-idemia-subtitle {color:#727272;font-size:var(--epm-content);line-height:1.6;}
+.epm-idemia #epm-idemia-product {font-size:var(--epm-subheading);line-height:1.2;margin:14px 0;font-weight:700;color:#161616;}
+.epm-idemia .epm-idemia-product {display:grid;grid-template-columns:340px 1fr;gap:50px;align-items:center;margin:44px auto 26px;text-align:left;}
+.epm-idemia-product > img {display:block;width:100%;height:auto;}
+.epm-idemia-product p + p {margin-top:22px;}
+.epm-idemia .epm-idemia-copy p + p {margin-top:24px;}
+.epm-idemia .epm-idemia-features-title {font-size:var(--epm-subheading);line-height:1.2;font-weight:650;margin:46px 0 24px;color:#161616;}
+.epm-idemia .epm-idemia-features {display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;}
+.epm-idemia .epm-idemia-photo-card {background:linear-gradient(135deg,rgba(5,18,39,.65),rgba(5,18,39,.82)),var(--card-photo) center/cover no-repeat;border-radius:22px;padding:26px 18px;min-height:178px;display:flex;flex-direction:column;justify-content:center;align-items:center;color:#fff;overflow:hidden;box-shadow:0 8px 24px #10263e12;}
+.epm-idemia .epm-idemia-photo-card h3 {font-size:var(--epm-content);font-weight:650;line-height:1.6;color:#fff;text-wrap:balance;}
+.epm-idemia .epm-idemia-photo-card p {font-size:var(--epm-content);line-height:1.6;color:#fff;margin-top:20px;}
+.epm-idemia .epm-idemia-banner {background:linear-gradient(90deg,rgba(5,12,22,.76),rgba(5,12,22,.7)),url('epm-light-assets/idemia/visionpass-lobby.png') center/cover no-repeat;padding:64px 0;color:#fff;text-align:center;}
+.epm-idemia-banner p + p {margin-top:24px;}
+.epm-idemia .epm-idemia-benefits {padding-block:58px;text-align:center;}
+.epm-idemia .epm-idemia-benefit-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;}
+.epm-idemia-benefit-grid .epm-idemia-photo-card {min-height:270px;justify-content:flex-start;padding:28px 24px;}
+.epm-idemia .epm-idemia-contact {display:inline-flex;margin-top:48px;align-items:center;justify-content:center;border-radius:999px;background:linear-gradient(90deg,#e5322d,#ffb0ae);color:#fff;text-decoration:none;padding:13px 32px;font-size:var(--epm-content);line-height:1.6;min-height:48px;transition:box-shadow .2s;}
+.epm-idemia .epm-idemia-contact:hover {box-shadow:0 6px 20px #e5322d40;}
+.epm-idemia .epm-idemia-contact:focus-visible {outline:3px solid #17345a;outline-offset:5px;}
+@media(max-width:1024px){
+ .epm-idemia .epm-idemia-features {grid-template-columns:repeat(3,minmax(0,1fr));}
+ .epm-idemia .epm-idemia-product {grid-template-columns:260px 1fr;gap:30px;}
+ .epm-idemia .epm-idemia-benefit-grid {gap:14px;}
+}
+@media(max-width:767px){
+ .epm-idemia .epm-idemia-wrap {width:calc(100% - 40px);}
+ .epm-idemia .epm-idemia-hero {height:390px;min-height:0;align-items:flex-end;}
+ .epm-idemia-hero > img {object-position:61% center;}
+ .epm-idemia .epm-idemia-hero-inner {width:calc(100% - 40px);margin:0 auto 30px;}
+ .epm-idemia-hero::after {background:linear-gradient(0deg,rgba(5,12,20,.7),transparent 65%);}
+ .epm-idemia .epm-idemia-intro {padding-block:30px 36px;}
+ .epm-idemia .epm-idemia-brand {width:250px;height:80px;margin-bottom:24px;}
+ .epm-idemia .epm-idemia-eyebrow,.epm-idemia .epm-idemia-subtitle {font-size:var(--epm-content);}
+ .epm-idemia .epm-idemia-product {grid-template-columns:1fr;gap:24px;margin-top:30px;}
+ .epm-idemia-product > img {max-width:330px;margin:auto;}
+ .epm-idemia .epm-idemia-features {grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;}
+ .epm-idemia-features .epm-idemia-photo-card:last-child {grid-column:1/-1;}
+ .epm-idemia .epm-idemia-photo-card {min-height:155px;padding:22px 16px;border-radius:18px;}
+ .epm-idemia .epm-idemia-features .epm-idemia-photo-card h3 {font-size:var(--epm-content);max-width:100%;overflow-wrap:anywhere;}
+ .epm-idemia .epm-idemia-features-title {font-size:var(--epm-subheading);margin-top:32px;}
+ .epm-idemia .epm-idemia-banner {padding:40px 0;background-position:70% center;}
+ .epm-idemia .epm-idemia-benefit-grid {grid-template-columns:1fr;gap:18px;}
+ .epm-idemia-benefit-grid .epm-idemia-photo-card {min-height:240px;justify-content:center;padding:28px 24px;}
+ .epm-idemia .epm-idemia-benefits {padding-block:36px;}
+ .epm-idemia .epm-idemia-contact {margin-top:30px;}
+}
