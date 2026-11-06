@@ -225,3 +225,25 @@
 !/app/public/wp-content/uploads/2026/08/Group-1000006380.webp
 !/app/public/wp-content/uploads/2026/07/multi-device-management-software-1.webp
 !/app/public/wp-content/mu-plugins/epm-light-assets/home-heading-line.png
+
+# Industry tab background images.
+!/app/public/wp-content/mu-plugins/epm-light-assets/iris-id-icam7-main.png
+!/app/public/wp-content/mu-plugins/epm-light-assets/smart-card-crescendo-piv.png
+!/app/public/wp-content/mu-plugins/epm-light-assets/smart-card-activid.png
+!/app/public/wp-content/mu-plugins/epm-light-assets/smart-card-iclass-prox.png
+!/app/public/wp-content/mu-plugins/epm-light-assets/industries/
+/app/public/wp-content/mu-plugins/epm-light-assets/industries/*
+!/app/public/wp-content/mu-plugins/epm-light-assets/industries/*.png
+
+# Reviewed card background assignment tools.
+!/deploy/update-card-backgrounds.cjs
+!/deploy/card-background-pages.json
+!/deploy/card-photo-library.json
+!/deploy/select-unique-card-photo.cjs
+!/app/public/wp-content/mu-plugins/epm-light-assets/photography/
+/app/public/wp-content/mu-plugins/epm-light-assets/photography/*
+!/app/public/wp-content/mu-plugins/epm-light-assets/photography/*.jpg
+
+# Full-opacity industry photos and background-only contrast wrappers.
+!/app/public/wp-content/mu-plugins/epm-light-assets/industries/*-opaque.svg
+!/app/public/wp-content/mu-plugins/epm-light-assets/features/*-clear.svg

@@ -35,3 +35,9 @@ The `.gitignore` uses an explicit deployment allowlist. It excludes WordPress co
 ## Rollback
 
 Restore the previous deployed presentation files and clear caches. To disable only the newest sitewide layer, remove `epm-sitewide.php` from the deployed must-use plugin directory and refresh Elementor's page caches.
+
+## Card background imagery
+
+Card backgrounds use a reviewed subject-image catalog, not arbitrary unused files or brand-logo artwork. The assignment rules live in `deploy/update-card-backgrounds.cjs`; page context is recorded in `deploy/card-background-pages.json`. Run `node deploy/update-card-backgrounds.cjs` after changing the card map. It updates both the JSON and CSS together and rejects missing images or unreviewed page IDs. Each page uses distinct photographs; photos may be reused on different pages. `deploy/select-unique-card-photo.cjs` selects from the reviewed photographs in `deploy/card-photo-library.json`, which records source URLs and license information. The generator rejects duplicate image assignments within a page. Newly sourced photographs are deployed locally in `epm-light-assets/photography/`. Dedicated partner logos, product images, hero images, and the Vision/Mission patterns are separate from these background assignments.
+
+Industry source PNGs contain a uniform 76/255 alpha channel. Their self-contained SVG rendering wrappers restore full photo opacity before the existing dark text overlay is applied. Six other pale background photos use background-only contrast wrappers. The source bitmaps remain unchanged; card text is never filtered. Keep the SVG wrappers with the deployed assets.

@@ -52,4 +52,97 @@ body.epm-sitewide img[src*="invixium-logo-black"] {filter:none!important;mix-ble
  body.epm-sitewide .elementor.elementor.elementor[data-elementor-type="wp-page"] .epm-site-card.epm-site-card.epm-site-card {padding:24px 20px!important;min-height:210px!important;}
  body.epm-sitewide .elementor.elementor.elementor[data-elementor-type="wp-page"] .epm-site-card.epm-feature-card {flex-basis:100%!important;width:100%!important;}
 }
+/* Vision and Mission use lightweight geometric patterns instead of photos. */
+body.epm-sitewide .elementor.elementor.elementor[data-elementor-type="wp-page"][data-elementor-id="5"] .epm-site-card.epm-site-card.elementor-element-8027b21 {
+ background:
+  radial-gradient(ellipse at 100% 0%,rgba(67,128,168,.24),transparent 65%),
+  repeating-radial-gradient(circle at 100% 100%,transparent 0 38px,rgba(255,255,255,.06) 39px 40px,transparent 41px 78px),
+  linear-gradient(135deg,#183650,#102438)!important;
+}
+body.epm-sitewide .elementor.elementor.elementor[data-elementor-type="wp-page"][data-elementor-id="5"] .epm-site-card.epm-site-card.elementor-element-4cbbf49 {
+ background:
+  radial-gradient(ellipse at 100% 0%,rgba(67,128,168,.24),transparent 65%),
+  repeating-linear-gradient(135deg,transparent 0 27px,rgba(255,255,255,.045) 28px 29px,transparent 30px 58px),
+  linear-gradient(135deg,#183650,#102438)!important;
+}
+/* Center each industry card vertically beside the tab list. */
+@media(min-width:768px){
+ body.epm-sitewide .elementor-5 .elementor-element-aa637e5 .e-n-tabs-content > [role="tabpanel"] {
+  --justify-content:center;justify-content:center!important;
+ }
+}
 @media(prefers-reduced-motion:reduce){body.epm-sitewide .elementor[data-elementor-type="wp-page"] *{animation:none!important;transition:none!important;}}
+
+/* Fingerprint card introduction: keep separately stored headings and copy together. */
+body.epm-sitewide .elementor.elementor.elementor[data-elementor-type="wp-page"][data-elementor-id="3335"] > .e-con:not(:first-child) {
+ padding-block:20px!important;row-gap:16px!important;
+}
+body.epm-sitewide .elementor.elementor.elementor[data-elementor-type="wp-page"][data-elementor-id="3335"] > .e-con:not(:first-child):has(.elementor-widget-heading):not(:has(.elementor-widget-text-editor)) {
+ padding-top:44px!important;padding-bottom:0!important;
+}
+body.epm-sitewide .elementor.elementor.elementor[data-elementor-type="wp-page"][data-elementor-id="3335"] > .e-con:has(.elementor-widget-heading):not(:has(.elementor-widget-text-editor)) + .e-con {
+ padding-top:16px!important;
+}
+body.epm-sitewide .elementor.elementor.elementor[data-elementor-type="wp-page"][data-elementor-id="3335"] > .e-con:not(:first-child) > .e-con-inner {
+ gap:16px!important;
+}
+body.epm-sitewide .elementor.elementor.elementor[data-elementor-type="wp-page"][data-elementor-id="3335"] :is(.elementor-widget-heading,.elementor-widget-text-editor) {
+ margin-block:0!important;padding-block:0!important;
+}
+body.epm-sitewide .elementor.elementor.elementor[data-elementor-type="wp-page"][data-elementor-id="3335"] .elementor-heading-title {
+ margin:0!important;line-height:1.3!important;text-wrap:balance;
+}
+body.epm-sitewide .elementor.elementor.elementor[data-elementor-type="wp-page"][data-elementor-id="3335"] .elementor-widget-text-editor p {
+ margin:0 0 16px!important;
+}
+body.epm-sitewide .elementor.elementor.elementor[data-elementor-type="wp-page"][data-elementor-id="3335"] .elementor-widget-text-editor p:last-child {margin-bottom:0!important;}
+body.epm-sitewide .elementor.elementor.elementor[data-elementor-type="wp-page"][data-elementor-id="3335"] > .e-con > .elementor-widget-text-editor,
+body.epm-sitewide .elementor.elementor.elementor[data-elementor-type="wp-page"][data-elementor-id="3335"] > .e-con > .e-con-inner > .elementor-widget-text-editor {
+ width:100%!important;max-width:1040px!important;margin-inline:auto!important;
+}
+body.epm-sitewide .elementor.elementor.elementor[data-elementor-type="wp-page"][data-elementor-id="3335"] > :is(.elementor-element-d03764a,.elementor-element-69f34a59,.elementor-element-9651292,.elementor-element-5e952637,.elementor-element-33562877) {
+ display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px!important;
+}
+body.epm-sitewide .elementor.elementor.elementor[data-elementor-type="wp-page"][data-elementor-id="3335"] > :is(.elementor-element-5e952637,.elementor-element-33562877) {
+ grid-template-columns:repeat(3,minmax(0,1fr));
+}
+body.epm-sitewide .elementor.elementor.elementor[data-elementor-type="wp-page"][data-elementor-id="3335"] > :is(.elementor-element-d03764a,.elementor-element-69f34a59,.elementor-element-9651292,.elementor-element-5e952637,.elementor-element-33562877) > .e-con-inner {display:contents!important;}
+body.epm-sitewide .elementor.elementor.elementor[data-elementor-type="wp-page"][data-elementor-id="3335"] > :is(.elementor-element-d03764a,.elementor-element-69f34a59,.elementor-element-9651292,.elementor-element-5e952637,.elementor-element-33562877) > .e-con,
+body.epm-sitewide .elementor.elementor.elementor[data-elementor-type="wp-page"][data-elementor-id="3335"] > :is(.elementor-element-d03764a,.elementor-element-69f34a59,.elementor-element-9651292,.elementor-element-5e952637,.elementor-element-33562877) > .e-con-inner > .e-con {
+ width:100%!important;max-width:100%!important;margin:0!important;gap:16px!important;
+}
+body.epm-sitewide .elementor.elementor.elementor[data-elementor-type="wp-page"][data-elementor-id="3335"] > :is(.elementor-element-d03764a,.elementor-element-69f34a59,.elementor-element-9651292,.elementor-element-5e952637,.elementor-element-33562877) .elementor-heading-title {
+ font-size:24px!important;line-height:1.3!important;
+}
+@media(max-width:1024px){
+ body.epm-sitewide .elementor.elementor.elementor[data-elementor-type="wp-page"][data-elementor-id="3335"] > :is(.elementor-element-d03764a,.elementor-element-69f34a59,.elementor-element-9651292,.elementor-element-5e952637,.elementor-element-33562877) {grid-template-columns:repeat(2,minmax(0,1fr));gap:20px!important;}
+}
+@media(max-width:767px){
+ body.epm-sitewide .elementor.elementor.elementor[data-elementor-type="wp-page"][data-elementor-id="3335"] > .e-con:not(:first-child) {padding-block:12px!important;}
+ body.epm-sitewide .elementor.elementor.elementor[data-elementor-type="wp-page"][data-elementor-id="3335"] > .e-con:not(:first-child):has(.elementor-widget-heading):not(:has(.elementor-widget-text-editor)) {padding-top:28px!important;padding-bottom:0!important;}
+ body.epm-sitewide .elementor.elementor.elementor[data-elementor-type="wp-page"][data-elementor-id="3335"] > .e-con:has(.elementor-widget-heading):not(:has(.elementor-widget-text-editor)) + .e-con {padding-top:12px!important;}
+ body.epm-sitewide .elementor.elementor.elementor[data-elementor-type="wp-page"][data-elementor-id="3335"] > :is(.elementor-element-d03764a,.elementor-element-69f34a59,.elementor-element-9651292,.elementor-element-5e952637,.elementor-element-33562877) {grid-template-columns:minmax(0,1fr);gap:16px!important;}
+ body.epm-sitewide .elementor.elementor.elementor[data-elementor-type="wp-page"][data-elementor-id="3335"] > :is(.elementor-element-d03764a,.elementor-element-69f34a59,.elementor-element-9651292,.elementor-element-5e952637,.elementor-element-33562877) .elementor-heading-title {font-size:20px!important;}
+}
+/* Three supplied product photographs replace the contactless-card montage. */
+body.page-id-3563 .epm-smart-card-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+}
+body.page-id-3563 .epm-smart-card-gallery img {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  object-fit: contain;
+  border-radius: 0;
+}
+@media (max-width: 767px) {
+  body.page-id-3563 .epm-smart-card-gallery {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
