@@ -146,3 +146,105 @@ body.page-id-3563 .epm-smart-card-gallery img {
     gap: 20px;
   }
 }
+
+/* Product detail pages use separate Elementor sections for headings and content. */
+:root body.epm-sitewide :is(.elementor-3637, .elementor-3651, .elementor-3672,
+    .elementor-3690, .elementor-3708, .elementor-3728, .elementor-3753)[data-elementor-type="wp-page"] {
+  --epm-section-space: clamp(12px, 1.5vw, 20px);
+  --detail-gap: clamp(10px, 1vw, 16px);
+
+  &.elementor.elementor > .e-con:not(:first-child),
+  &.elementor.elementor > .e-con:not(:first-child) > .e-con-inner {
+    row-gap: var(--detail-gap) !important;
+  }
+
+  /* A title-only row belongs to the content immediately below it. */
+  &.elementor.elementor > .e-con:not(:first-child):has(.elementor-widget-heading):not(:has(.elementor-widget:not(.elementor-widget-heading), .epm-site-card)),
+  &.elementor.elementor > .e-con:not(:first-child):is([data-id="20e6a990"], [data-id="5421fd72"], [data-id="51f34f18"], [data-id="bc72ebc"], [data-id="6c4063c5"]) {
+    padding-bottom: 0 !important;
+  }
+
+  &.elementor.elementor > .e-con:not(:first-child) :is(.elementor-widget-heading, .elementor-widget-text-editor, .elementor-widget-image):not(.epm-site-card) {
+    margin-block: 0 !important;
+    padding-block: 0 !important;
+  }
+
+  & > .e-con:not(:first-child) .elementor-widget-text-editor p:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  /* Regroup successive headings with their descriptions inside a single row. */
+  &.elementor.elementor > .e-con:not(:first-child):is([data-id="2b6472d"], [data-id="62f21301"], [data-id="6c4063c5"]) .elementor-widget + .elementor-widget-heading {
+    margin-top: var(--epm-section-space) !important;
+  }
+
+  & :is([data-id="2b6472d"], [data-id="62f21301"], [data-id="4c467c35"], [data-id="12bb5b89"], [data-id="5fd1be63"]) .elementor-widget-text-editor {
+    width: 100% !important;
+    max-width: 90ch !important;
+    margin-inline: auto !important;
+  }
+
+  /* Keep pale partner marks legible and centered on the white page. */
+  & :is([data-id="28d6e239"], [data-id="62498fb"], [data-id="1f1e048"], [data-id="44ca863"]) img {
+    display: block;
+    margin-inline: auto;
+    max-width: 100%;
+    height: auto;
+    background: #172a40;
+    border-radius: 6px;
+    padding: 8px 14px;
+    box-sizing: border-box;
+  }
+
+  & [data-id="28d6e239"] img {
+    width: 128px !important;
+  }
+
+  /* An extra wrapper around two of the three occupancy cards adds a visible inset. */
+  & [data-id="71ccbd1c"] {
+    padding: 0 !important;
+  }
+
+  & [data-id="3a50b4d1"] .elementor-heading-title {
+    font-size: clamp(20px, 2vw, 28px) !important;
+  }
+
+  &.elementor.elementor > .e-con[data-id="5f8b2396"] .elementor-heading-title {
+    line-height: 1.55 !important;
+  }
+
+  & :is([data-id="5f8b2396"], [data-id="4e389841"], [data-id="b4b8498"]) :is(.elementor-widget-text-editor, .elementor-heading-title) {
+    text-align: start !important;
+  }
+
+  & :is([data-id="7c4d516a"], [data-id="458355ab"], [data-id="68af715c"]) li {
+    text-align: start !important;
+  }
+
+  & :is([data-id="31083a76"], [data-id="2722ffbd"]) .epm-site-card {
+    justify-content: flex-start !important;
+  }
+}
+
+/* The HID row has fixed widget widths that extend past its tablet column. */
+body.page-id-3637 .elementor-3637 .e-con[data-id="4e389841"] {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  gap: clamp(16px, 3vw, 40px) !important;
+  align-items: center;
+}
+body.page-id-3637 .elementor-3637 [data-id="4e389841"] :is(.e-con, .elementor-widget) {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0;
+  margin-inline: 0 !important;
+  padding-inline: 0 !important;
+}
+@media (max-width: 767px) {
+  body.page-id-3637 .elementor-3637 .e-con[data-id="4e389841"] {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  :root body.epm-sitewide.page-id-3753 .elementor.elementor.elementor-3753[data-elementor-type="wp-page"] .elementor-widget-heading[data-id="178d3536"] .elementor-heading-title {
+    font-size: 16px !important;
+  }
+}
