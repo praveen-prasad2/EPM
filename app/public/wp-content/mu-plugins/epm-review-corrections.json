@@ -1,0 +1,203 @@
+{
+  "2946": {
+    "replace": {
+      "Easy of installation": "Ease of installation",
+      "DOME Cameras": "Dome Cameras",
+      "can by thermal": "can be thermal"
+    },
+    "widgets": {
+      "74f2545": "Indoor and outdoor models",
+      "9673ec8": "<p>Dome cameras are mounted on ceilings or wall brackets, with the camera housed inside a protective dome. Fixed models monitor a defined area, while pan-tilt-zoom (PTZ) models can change their viewing direction and zoom.</p><p>Choose an indoor or outdoor model to suit the installation. Infrared illumination, weather resistance and vandal resistance depend on the selected model and its housing.</p>"
+    },
+    "remove": []
+  },
+  "2967": {
+    "replace": {
+      "joy stick": "joystick",
+      "pixilated": "pixelated",
+      "360 circle": "360-degree circle",
+      "Being able to move the camera necessary by a security guard allows your security staff to respond quickly to events they spot with the surveillance system.": "The ability to move the camera as needed allows security staff to respond quickly to events they spot on the surveillance system."
+    },
+    "widgets": {},
+    "remove": []
+  },
+  "2991": {
+    "replace": {
+      "Easy of installation": "Ease of installation"
+    },
+    "widgets": {},
+    "remove": [
+      "37c10b1"
+    ]
+  },
+  "3008": {
+    "replace": {},
+    "widgets": {
+      "7a0b741": "<p>IP video servers convert video from analogue cameras into digital streams for transmission over a network. They help existing analogue surveillance systems connect to compatible IP monitoring and recording software.</p><p>Depending on the model and software, users can view live video, manage connected cameras and access recordings through authorised desktop or mobile applications. Remote viewing requires a suitable network connection and secure access configuration.</p>",
+      "383790d5": "<strong>Flexible video viewing</strong><p>View connected camera streams through compatible monitoring software.</p>",
+      "3341bdae": "<strong>Reuse existing cameras</strong><p>Connect supported analogue cameras to an IP network without replacing every camera.</p>",
+      "4fccaaed": "<strong>Centralised management</strong><p>Bring compatible video sources into one monitoring system.</p>",
+      "3e856d3e": "<strong>Expandable architecture</strong><p>Add supported cameras and recording capacity as the system grows.</p>"
+    },
+    "remove": []
+  },
+  "3018": {
+    "replace": {
+      "[citation needed]": "",
+      "meta data": "metadata"
+    },
+    "widgets": {},
+    "remove": [
+      "0cc1bec"
+    ]
+  },
+  "3037": {
+    "replace": {
+      "8 mm, 3.1 mm, or 6.2 mm Thermal Lens Options": "1.8 mm, 3.1 mm, or 6.2 mm Thermal Lens Options",
+      "265/H.264/MJPEG": "H.265/H.264/MJPEG",
+      "264/MJPEG/MPEG4": "H.264/MJPEG/MPEG4"
+    },
+    "widgets": {
+      "400fbb87": "<p>Thermal cameras detect infrared radiation emitted by objects and convert it into an image. Differences in detected radiation make temperature patterns visible, including in darkness.</p><p>Thermal and optical cameras serve different purposes: thermal sensors reveal heat patterns, while visible-light sensors show scene detail. Combined systems can support perimeter monitoring and temperature-related alerts. Detection performance and temperature measurement capability depend on the camera model, lens, installation and environment.</p>",
+      "650e8e53": "DS-2TD4035D-25 / DS-2TD4035D-50",
+      "c83aa05": "<p>Thermal imaging in darkness</p>",
+      "6422b07": "<p>Line-crossing and intrusion detection</p>",
+      "1dc17d9": "<p>Temperature-exception and fire-detection alerts</p>",
+      "2b6816f": "<p>Digital image-detail enhancement</p>",
+      "4ec91fe": "<p>Thermal imaging in darkness</p>",
+      "4b3f1ac": "<p>Line-crossing and intrusion detection</p>",
+      "2246b36": "<p>Temperature-exception and fire-detection alerts</p>",
+      "b09b954": "<p>Digital image-detail enhancement</p>",
+      "bb10400": "<p>3D digital noise reduction, electronic image stabilisation and defog.</p><p><a href=\"https://www.epmuae.com/wp-content/uploads/2020/07/Hikvision_ds-2td4035d-2550_032619na_0.pdf\">Download the DS-2TD4035D datasheet (PDF)</a></p>",
+      "29f06642": "<p>160 x 120 Resolution (Upscaled to 320 x 240)<br>3.1 mm or 6.2 mm Thermal Lens Options<br>H.265/H.264/MJPEG, H.265+/H.264+ encoding with baseline/main/high profile<br>Smart Features: Line crossing, intrusion and region entrance/exit detection with human and vehicle filtering; temperature-exception and fire-detection alerts<br>Temperature Range: -4° to 302° F (-20° to 150° C)<br>PoE (802.3af), 12 VDC, Maximum 8 W</p>"
+    },
+    "remove": []
+  },
+  "3060": {
+    "replace": {
+      "Efficency": "Efficiency",
+      "build based on": "built based on",
+      "seven different algorithms": "multiple image-processing stages"
+    },
+    "widgets": {
+      "323305d0": "Get a quote for an ANPR camera in Dubai"
+    },
+    "remove": []
+  },
+  "3061": {
+    "replace": {},
+    "widgets": {
+      "5831948": "IR illumination up to 35 m (B3 configuration)",
+      "77815813": "Temperature Monitoring Features",
+      "69c226d1": "<p>Thermal cameras detect infrared radiation emitted by objects and convert it into an image. Differences in detected radiation make temperature patterns visible, including in darkness.</p><p>Thermal and optical cameras serve different purposes: thermal sensors reveal heat patterns, while visible-light sensors show scene detail. Combined systems can support perimeter monitoring and temperature-related alerts. Detection performance and temperature measurement capability depend on the camera model, lens, installation and environment.</p>",
+      "4dc756d4": "Enhanced Power and Data Transmission Distances (ePoE)",
+      "58e45268": "Dahua TPC-BF2221 Thermal Hybrid Bullet Camera",
+      "3f1f3db4": "<p>256 × 192 thermal imaging with a 2 MP visible-light camera.</p>",
+      "7eaed397": "<p>The TPC-BF2221 combines thermal detection and visible-light surveillance in one bullet camera. The B3 configuration shown uses a 3.5 mm thermal lens and a 4 mm visible-light lens. Dahua lists this model as discontinued; contact us for support or a current replacement.</p><p><a href=\"https://www.dahuasecurity.com/products/Thermal-Cameras/LiteWizsense-Series/TCP-2-Series/TPC-BF2221\">TPC-BF2221 manufacturer specifications</a></p>",
+      "4e536f4e": "256 × 192 uncooled VOx thermal sensor",
+      "131cbb12": "3.5 mm thermal lens (B3 configuration)",
+      "3ad0fd1": "Thermal sensitivity: ≤50 mK",
+      "6f0226f0": "4 mm visible-light lens (B3 configuration)",
+      "2ea68c83": "Dahua DH-TPC-BF5421-T Temperature Monitoring System",
+      "6c8340c5": "DH-TPC-BF5421-T: 400 × 300 thermal sensor and 2 MP visible-light camera",
+      "6e4d9a4f": "<p>A separate temperature-monitoring system using the DH-TPC-BF5421-T camera, a blackbody reference and compatible recording equipment. The 13 mm thermal-lens version supports preliminary temperature-anomaly screening.</p>",
+      "29802fa4": "<p>Manufacturer-stated measurement accuracy: ±0.3°C with a blackbody reference under the specified installation conditions.</p>",
+      "66949f7": "<p>Temperature measurement range: 30°C to 45°C. Confirm camera version, installation distance and operating conditions before specifying the system.</p>",
+      "28aefe62": "<p>Designed for preliminary temperature screening at controlled entrances. Elevated readings require confirmation using an appropriate clinical thermometer.</p><p><a href=\"https://www.dahuasecurity.com/asset/upload/uploads/soft/20200519/DH-TPC-BF5421-T_New_Datasheet_20200401_CEENordic.pdf\">DH-TPC-BF5421-T manufacturer datasheet</a></p>"
+    },
+    "remove": [],
+    "buttons": {
+      "4b8b0a36": {
+        "text": "Discuss your thermal camera requirements",
+        "url": "/contact/"
+      }
+    }
+  },
+  "3110": {
+    "replace": {
+      "8 x4TB": "8 x 4TB"
+    },
+    "widgets": {
+      "54c3e19": "<p>Choose an operating system and version explicitly supported by the VMS manufacturer. Depending on the platform, this may be a supported Windows, Windows Server or Linux release. Confirm the vendor’s hardware requirements, security-update policy and compatibility before deployment.</p>",
+      "6e8589a": "<p>Size recording storage using the number of cameras, resolution, frame rate, compression, recording schedule and retention period. For example, 8 x 4TB drives provide 32TB of raw capacity before RAID, formatting and system overhead.</p><p>Use the VMS manufacturer’s storage calculator and allow capacity for growth. Usable recording capacity and retention depend on the final configuration and actual video bitrate.</p>",
+      "9fb8050": "<p>Check the VMS manufacturer’s supported-device list for the exact camera model, firmware and required features. ONVIF support can assist interoperability, but does not guarantee that every camera feature is available. Confirm motion events, audio, alarms and analytics integration for the planned system.</p>"
+    },
+    "remove": []
+  },
+  "3137": {
+    "replace": {
+      "tpye": "type",
+      "ballanced": "balanced",
+      "assests": "assets",
+      "low enforcement": "law enforcement",
+      "may requires": "may require"
+    },
+    "widgets": {
+      "b338510": "CARMEN® FreeFlow at a glance"
+    },
+    "remove": []
+  },
+  "3155": {
+    "replace": {
+      "SEKUR ZONE": "SekurZone",
+      "assests": "assets",
+      "low enforcement": "law enforcement"
+    },
+    "widgets": {
+      "26d73d75": "Applications of Candid SekurZone",
+      "6a0d244c": "<p>Candid SekurZone is automatic number plate recognition software for vehicle access and monitoring. It reads a vehicle registration number from a compatible camera image and records the event with its time, location and associated vehicle images.</p><p>System configuration depends on the cameras, lane layout and software integration. Contact our team to confirm compatibility and the requirements for your installation.</p>",
+      "15d5119d": "<p>SekurZone can support vehicle access control, parking operations and monitoring of entry and exit lanes. Authorised users can review vehicle events and search recorded movements.</p><p>Our team can assess camera placement, lighting, vehicle flow and integration with your access control system before proposing a configuration.</p>",
+      "2a442a82": "<p>Integration with compatible ANPR cameras and video sources, subject to configuration.</p>",
+      "6d42231b": "<p>Vehicle and number-plate images associated with entry and exit events.</p>"
+    },
+    "remove": []
+  },
+  "3263": {
+    "replace": {
+      "Timed anti-pass back function(": "Timed anti-passback function"
+    },
+    "widgets": {},
+    "remove": []
+  },
+  "3370": {
+    "replace": {},
+    "widgets": {
+      "9577099": "FaceStation F2 — legacy model",
+      "f90b8ee": "<p>Suprema face-recognition readers support contactless identity verification for access control. BioEntry W3 and BioStation 3 are facial-authentication devices. BioStation 2a is a fingerprint reader and is listed under optical biometric readers.</p><p>FaceStation F2 and FaceStation 2 appear in Suprema’s lifecycle notices. Ask us about availability, support and migration options for an existing installation.</p>",
+      "e7fafcb": "<p>Matching performance depends on the selected reader, configuration and enrolled user population. We can help select a supported model for your access-control requirements.</p>",
+      "42203a0": "<p>User and event capacities vary by model. Confirm the selected reader’s datasheet and software compatibility when planning an installation or upgrade.</p>",
+      "98c85b1": "<p>Choose the reader and installation position for the expected lighting conditions. Follow the manufacturer’s mounting and illumination guidance.</p>"
+    },
+    "remove": [
+      "d09881d"
+    ]
+  },
+  "3524": {
+    "replace": {
+      "BioStation A2 is the most advanced": "BioStation A2 is a legacy"
+    },
+    "widgets": {
+      "7010978": "BioStation L2 — legacy model",
+      "8f8652c": "BioStation A2 — legacy model"
+    },
+    "remove": []
+  },
+  "3618": {
+    "replace": {},
+    "widgets": {},
+    "remove": [],
+    "tail": "48ba8cdc"
+  },
+  "3651": {
+    "replace": {},
+    "widgets": {},
+    "remove": [],
+    "tail": "5421fd72"
+  },
+  "5444": {
+    "replace": {},
+    "widgets": {},
+    "remove": [],
+    "directory": true
+  }
+}

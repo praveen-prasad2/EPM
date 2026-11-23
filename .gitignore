@@ -251,3 +251,12 @@
 # Full-opacity industry photos and background-only contrast wrappers.
 !/app/public/wp-content/mu-plugins/epm-light-assets/industries/*-opaque.svg
 !/app/public/wp-content/mu-plugins/epm-light-assets/features/*-clear.svg
+
+# Product proofreading and catalogue corrections.
+!/app/public/wp-content/mu-plugins/epm-review-corrections.php
+!/app/public/wp-content/mu-plugins/epm-review-corrections.json
+!/app/public/wp-content/mu-plugins/epm-review-corrections.css
+!/app/public/wp-content/mu-plugins/epm-light-assets/review/
+/app/public/wp-content/mu-plugins/epm-light-assets/review/*
+!/app/public/wp-content/mu-plugins/epm-light-assets/review/*.png
+!/deploy/review-correction-sources.json
