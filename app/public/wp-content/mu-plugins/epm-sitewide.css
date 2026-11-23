@@ -275,6 +275,21 @@ body.epm-sitewide .elementor-3037 [data-id="43efb3c1"] img {
 /* ANPR explainer photographs stay visible beneath a lighter, even overlay. */
 body.epm-sitewide .elementor.elementor.elementor-3060[data-elementor-type="wp-page"] .epm-site-card.epm-site-card.epm-site-card:is([data-id="2d1df7c1"], [data-id="662ce087"], [data-id="b19f5d6"]) {
   background: linear-gradient(rgba(5, 15, 27, .32), rgba(5, 15, 27, .42)), var(--epm-card-photo) center / cover no-repeat !important;
+  gap: 12px !important;
+  justify-content: flex-start !important;
+  align-items: stretch !important;
+  min-height: 0 !important;
+  padding: 24px !important;
+}
+body.epm-sitewide .elementor-3060 :is([data-id="2d1df7c1"], [data-id="662ce087"], [data-id="b19f5d6"]) > .elementor-widget {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+body.epm-sitewide .elementor-3060 :is([data-id="2d1df7c1"], [data-id="662ce087"], [data-id="b19f5d6"]) :is(p, .elementor-heading-title) {
+  margin: 0 !important;
+  text-align: left !important;
 }
 body.epm-sitewide .elementor-3060 :is([data-id="2d1df7c1"], [data-id="662ce087"], [data-id="b19f5d6"]) :is(p, .elementor-heading-title) {
   text-shadow: 0 1px 3px #05101c, 0 0 6px rgba(5, 16, 28, .8) !important;
