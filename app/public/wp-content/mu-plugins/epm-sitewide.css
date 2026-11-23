@@ -226,6 +226,115 @@ body.page-id-3563 .epm-smart-card-gallery img {
   }
 }
 
+/* Thermal camera specifications: readable bullets with aligned wrapped lines. */
+body.epm-sitewide .elementor-3037 .elementor-widget-text-editor .epm-thermal-specs {
+  list-style: disc outside;
+  text-align: left;
+  margin: 0;
+  padding-left: 1.4em;
+}
+body.epm-sitewide .elementor-3037 .epm-thermal-specs > li {
+  text-align: left;
+  padding-left: 0.2em;
+  margin-bottom: 0.5em;
+}
+body.epm-sitewide .elementor-3037 .epm-thermal-specs > li:last-child {
+  margin-bottom: 0;
+}
+
+/* Speed dome: one compact image-and-specifications row. */
+body.epm-sitewide .elementor.elementor.elementor-3037 > .e-con[data-id="9342618"] {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  gap: 32px !important;
+  align-items: center;
+}
+body.epm-sitewide .elementor-3037 [data-id="9342618"] :is(.e-con, .elementor-widget) {
+  width: 100% !important;
+  max-width: 100%;
+  min-height: 0;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+body.epm-sitewide .elementor-3037 [data-id="43efb3c1"] img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+@media (max-width: 767px) {
+  body.epm-sitewide .elementor.elementor.elementor-3037 > .e-con[data-id="9342618"] {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px !important;
+  }
+  body.epm-sitewide .elementor-3037 [data-id="41a3eec2"] {
+    max-width: 360px;
+    justify-self: center;
+  }
+}
+
+/* ANPR explainer photographs stay visible beneath a lighter, even overlay. */
+body.epm-sitewide .elementor.elementor.elementor-3060[data-elementor-type="wp-page"] .epm-site-card.epm-site-card.epm-site-card:is([data-id="2d1df7c1"], [data-id="662ce087"], [data-id="b19f5d6"]) {
+  background: linear-gradient(rgba(5, 15, 27, .32), rgba(5, 15, 27, .42)), var(--epm-card-photo) center / cover no-repeat !important;
+}
+body.epm-sitewide .elementor-3060 :is([data-id="2d1df7c1"], [data-id="662ce087"], [data-id="b19f5d6"]) :is(p, .elementor-heading-title) {
+  text-shadow: 0 1px 3px #05101c, 0 0 6px rgba(5, 16, 28, .8) !important;
+}
+
+/* Candid's transparent network diagram uses pale strokes intended for a dark surface. */
+body.epm-sitewide .elementor-3155 [data-id="8de1f98"] img {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 485px;
+  height: auto;
+  margin-inline: auto;
+  padding: 14px;
+  background: #172a40;
+  border-radius: 12px;
+  opacity: 1;
+}
+
+/* VMS Software: keep each heading close to its copy without stacked section gaps. */
+body.epm-sitewide .elementor.elementor.elementor-3110[data-elementor-type="wp-page"] > .e-con:not(:first-child) {
+  padding-block: 20px !important;
+  row-gap: 16px !important;
+}
+body.epm-sitewide .elementor.elementor.elementor-3110[data-elementor-type="wp-page"] > .e-con:not(:first-child) > .e-con-inner {
+  row-gap: 16px !important;
+}
+body.epm-sitewide .elementor-3110 > .e-con:not(:first-child) :is(.elementor-widget-heading, .elementor-widget-text-editor) {
+  margin-block: 0 !important;
+  padding-block: 0 !important;
+}
+body.epm-sitewide .elementor-3110 > .e-con:not(:first-child) .elementor-widget-text-editor p:first-child {
+  margin-top: 0 !important;
+}
+body.epm-sitewide .elementor-3110 > .e-con:not(:first-child) .elementor-widget-text-editor p:last-child {
+  margin-bottom: 0 !important;
+}
+body.epm-sitewide .elementor.elementor.elementor-3110[data-elementor-type="wp-page"] > .e-con[data-id="520f4f4"] {
+  padding-bottom: 0 !important;
+}
+
+/* Video Servers: join the standalone section heading to its explanatory copy. */
+body.epm-sitewide .elementor.elementor.elementor[data-elementor-type="wp-page"][data-elementor-id="3008"] > .e-con[data-id="2a58e80b"] {
+  padding-bottom: 16px !important;
+}
+body.epm-sitewide .elementor.elementor.elementor[data-elementor-type="wp-page"][data-elementor-id="3008"] > .e-con[data-id="799cd1d2"] {
+  padding-top: 16px !important;
+  padding-bottom: 0 !important;
+}
+body.epm-sitewide .elementor.elementor.elementor[data-elementor-type="wp-page"][data-elementor-id="3008"] > .e-con[data-id="1115dd2"] {
+  padding-top: 20px !important;
+}
+body.epm-sitewide .elementor-3008 :is([data-id="759583ee"], [data-id="8ef80e5"], [data-id="7a0b741"]) {
+  margin-block: 0 !important;
+  padding-block: 0 !important;
+}
+body.epm-sitewide .elementor-3008 :is([data-id="759583ee"], [data-id="7a0b741"]) p:last-child {
+  margin-bottom: 0 !important;
+}
+
 /* The HID row has fixed widget widths that extend past its tablet column. */
 body.page-id-3637 .elementor-3637 .e-con[data-id="4e389841"] {
   display: grid !important;

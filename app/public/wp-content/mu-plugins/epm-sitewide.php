@@ -56,6 +56,34 @@ add_filter('elementor/widget/render_content', function ($content, $widget) {
     return $html->get_updated_html();
 }, 100, 2);
 
+// Format the thermal camera's line-separated specifications, including cached Elementor HTML.
+add_filter('the_content', function ($content) {
+    if (!is_page(3037)) return $content;
+    return preg_replace_callback('~<p>\s*160 x 120 Resolution\b(?:(?!</p>).)*</p>~su', function ($match) {
+        $paragraph = preg_replace('~^<p>|</p>$~', '', $match[0]);
+        $items = preg_split('~<br\s*/?>~i', $paragraph);
+        if (count($items) < 2) return $match[0];
+        return '<ul class="epm-thermal-specs"><li>'.implode('</li><li>', array_map('trim', $items)).'</li></ul>';
+    }, $content);
+}, 100);
+
+// Keep the speed dome description and specifications beside its product image.
+add_filter('the_content', function ($content) {
+    if (!is_page(3037)) return $content;
+    $section_pattern = '~<div\b[^>]*\bdata-id="6061fd7"[^>]*>.*?(?=<div\b[^>]*\bdata-id="1711a89d")~s';
+    $intro_pattern = '~<p>\s*The Hikvision DS-2TD4035D-25 and DS-2TD4035D-50\b.*?</p>~s';
+    if (!preg_match($section_pattern, $content, $section)
+        || !preg_match('~<p>(384 x 288 Resolution.*?)</p>~s', $section[0], $specs)
+        || !preg_match($intro_pattern, $content, $intro)) return $content;
+    $items = array_merge(
+        [preg_replace('~^<p>|</p>$~', '', $intro[0])],
+        preg_split('~<br\s*/?>~i', $specs[1])
+    );
+    $list = '<ul class="epm-thermal-specs"><li>'.implode('</li><li>', array_map('trim', $items)).'</li></ul>';
+    $content = str_replace($intro[0], $list, $content);
+    return str_replace($section[0], '', $content);
+}, 100);
+
 // Elementor may serve cached widget HTML without running widget render filters.
 add_filter('the_content', function ($content) {
     if (!is_page(3563)) return $content;

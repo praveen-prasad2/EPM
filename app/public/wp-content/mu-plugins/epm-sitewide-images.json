@@ -3169,15 +3169,15 @@
       "text": "Speed Monitoring This system helps traffic police by digitizing the speed monitoring process. Speed limit offenders are recorded by the cameras and receive their tickets complete with their plates’ image and their speed when the picture was taken."
     },
     "2d1df7c1": {
-      "asset": "epm-light-assets/photography/pexels-12401304.jpg",
+      "asset": "epm-light-assets/photography/pexels-96612.jpg",
       "text": "Components The software is simple and can easily be accessed on any computer. Image decoding techniques enhance pictures taken, after which optical character recognition separates individual characters. Some of the major components in ANPR systems include cameras, software, frame grabbers, and triggers."
     },
     "662ce087": {
-      "asset": "epm-light-assets/photography/pexels-29204269.jpg",
+      "asset": "epm-light-assets/features/video-analytics.webp",
       "text": "Technology ANPR camera systems are tailored to the specific country of use, although a few variants can be used internationally. They use optical character recognition software to decipher coded characters from the captured images."
     },
     "b19f5d6": {
-      "asset": "epm-light-assets/photography/pexels-38368133.jpg",
+      "asset": "epm-light-assets/photography/pexels-1432794.jpg",
       "text": "Algorithms The software combines seven different algorithms to function fully. The algorithms find the plates on the car, identify orientation and font size, adjust contrast and light, differentiate individual characters, arrange them according to the country’s rules, and give final output as a single image."
     },
     "174a4362": {
@@ -3994,7 +3994,7 @@
       "text": "Connected to the Future All readers include out-of-the-box support for Open Supervised Device Protocol (OSDP) for secure bidirectional communication. Each reader is also designed to be connected and managed remotely without “sneakernet” or the need to be physically touched."
     },
     "73d5ac90": {
-      "asset": "epm-light-assets/photography/pexels-27273555.jpg",
+      "asset": "epm-light-assets/photography/pexels-33335255.jpg",
       "text": "HID Signo Express Reader Simplicity meets security for traditional physical access control"
     },
     "68ba94e8": {
@@ -4006,7 +4006,7 @@
       "text": "HID Signo Keypad Reader 40K Contactless smartcard keypad reader – multi-technology, mobile ready, wall switch mount"
     },
     "299927a8": {
-      "asset": "epm-light-assets/photography/pexels-37538043.jpg",
+      "asset": "epm-light-assets/photography/pexels-9461272.jpg",
       "text": "HID Signo Mechanical Keypad Reader 40T Reliable mechanical keypad reader designed for demanding installations"
     },
     "3b6dde3": {
@@ -4014,11 +4014,11 @@
       "text": "HID Signo Reader 20 Contactless smartcard reader — multi-technology, mobile ready, mullion mount"
     },
     "7e128ed0": {
-      "asset": "epm-light-assets/photography/pexels-7621126.jpg",
+      "asset": "epm-light-assets/photography/pexels-13007861.jpg",
       "text": "HID Signo Reader 40 Contactless smartcard reader — multi-technology, mobile ready, wall switch mount"
     },
     "1b03ee93": {
-      "asset": "epm-light-assets/photography/pexels-7252566.jpg",
+      "asset": "epm-light-assets/photography/pexels-13657523.jpg",
       "text": "HID Signo Readers in White Providing a clean, minimalist and modern look"
     }
   },
@@ -4032,11 +4032,11 @@
       "text": "Read range up to 10 meters (33 feet)"
     },
     "6bb0243d": {
-      "asset": "epm-light-assets/photography/pexels-5875998.jpg",
+      "asset": "epm-light-assets/photography/pexels-35657703.jpg",
       "text": "Object speed up to 200 km/h (125 mph)"
     },
     "29b3f93": {
-      "asset": "epm-light-assets/photography/pexels-34023290.jpg",
+      "asset": "epm-light-assets/photography/pexels-37095097.jpg",
       "text": "Tag authentication based on AES encryption"
     },
     "42bbc61f": {
@@ -4044,67 +4044,67 @@
       "text": "Adjustable read range"
     },
     "7b33f865": {
-      "asset": "epm-light-assets/photography/pexels-17051849.jpg",
+      "asset": "epm-light-assets/photography/pexels-6466143.jpg",
       "text": "Bi-directional communication"
     },
     "381fa863": {
-      "asset": "epm-light-assets/photography/pexels-14833543.jpg",
+      "asset": "epm-light-assets/photography/pexels-28675583.jpg",
       "text": "Variety of integrated communication interfaces"
     },
     "59de620": {
-      "asset": "epm-light-assets/photography/pexels-12401304.jpg",
+      "asset": "epm-light-assets/photography/pexels-33514501.jpg",
       "text": "Robust industrial design"
     },
     "be4d198": {
-      "asset": "epm-light-assets/photography/pexels-16896042.jpg",
+      "asset": "epm-light-assets/photography/pexels-5050305.jpg",
       "text": "OSDP v2 supported including secure channel protocol"
     },
     "5ba5b788": {
-      "asset": "epm-light-assets/photography/pexels-10199671.jpg",
+      "asset": "epm-light-assets/photography/pexels-36825977.jpg",
       "text": "ATEX IECEx certified. (33 feet)"
     },
     "c6f791c": {
-      "asset": "epm-light-assets/photography/pexels-17389565.jpg",
+      "asset": "epm-light-assets/photography/pexels-9799735.jpg",
       "text": "Simultaneous vehicle and driver identification"
     },
     "38a4741b": {
-      "asset": "epm-light-assets/photography/pexels-9094543.jpg",
+      "asset": "epm-light-assets/photography/pexels-17389565.jpg",
       "text": "Reliable under harsh environmental conditions."
     },
     "2f3ac733": {
-      "asset": "epm-light-assets/photography/pexels-35269250.jpg",
+      "asset": "epm-light-assets/photography/pexels-33473263.jpg",
       "text": "Read range up to 10 meters (33 feet)."
     },
     "24d01cf0": {
-      "asset": "epm-light-assets/photography/pexels-15022471.jpg",
+      "asset": "epm-light-assets/photography/pexels-31029379.jpg",
       "text": "Object speed up to 200 km/h (125 mph)"
     },
     "6422e907": {
-      "asset": "epm-light-assets/photography/pexels-18998782.jpg",
+      "asset": "epm-light-assets/photography/pexels-15022471.jpg",
       "text": "Adjustable read range."
     },
     "e416645": {
-      "asset": "epm-light-assets/photography/pexels-38368133.jpg",
+      "asset": "epm-light-assets/photography/pexels-1432794.jpg",
       "text": "Variety of integrated communication interfaces"
     },
     "3d068f53": {
-      "asset": "epm-light-assets/photography/pexels-9799735.jpg",
+      "asset": "epm-light-assets/photography/pexels-16161087.jpg",
       "text": "automatic vehicle identification"
     },
     "bb4cf37": {
-      "asset": "epm-light-assets/photography/pexels-29204269.jpg",
+      "asset": "epm-light-assets/photography/pexels-14833543.jpg",
       "text": "read range up to 5 meters (16,4 feet)"
     },
     "6d321705": {
-      "asset": "epm-light-assets/photography/pexels-5868576.jpg",
+      "asset": "epm-light-assets/photography/pexels-13657444.jpg",
       "text": "operates with passive UHF cards (EPC Gen 2)"
     },
     "3711e398": {
-      "asset": "epm-light-assets/photography/pexels-31029379.jpg",
+      "asset": "epm-light-assets/photography/pexels-28960714.jpg",
       "text": "adjustable read range"
     },
     "13cb2999": {
-      "asset": "epm-light-assets/photography/pexels-16896019.jpg",
+      "asset": "epm-light-assets/photography/pexels-163170.jpg",
       "text": "supported communication interfaces: Wiegand, RS232 and RS422"
     }
   },

@@ -109,6 +109,50 @@ function pageTopic(title) {
   return 'office';
 }
 const report = [];
+// Match the Signo product cards to real door-entry installations. Explicit
+// selections prevent generic access-topic photos (including unrelated hardware)
+// from returning when the sitewide map is regenerated.
+const readerBackgrounds = {
+  '73d5ac90': '33335255', // Express: slim reader mounted beside an entrance.
+  '68ba94e8': '33335189', // 20K: mobile credential at a door reader.
+  '558ccfdc': '17155842', // 40K: wall-mounted keypad access terminal.
+  '299927a8': '9461272', // 40T: physical keypad at a building entrance.
+  '3b6dde3': '13657444', // 20: contactless credential presentation.
+  '7e128ed0': '13007861', // 40: outdoor wall-mounted access reader.
+  '1b03ee93': '13657523', // White: clean, contemporary entrance installation.
+};
+// Nedap feature cards: vehicle scenes for range/identification, technical
+// photographs for security, communications and industrial installation features.
+const nedapBackgrounds = {
+  '694169f3': 'epm-light-assets/features/smart-parking.webp',
+  '375228d5': '15216662', // Long-range vehicle approach.
+  '6bb0243d': '35657703', // Vehicles in motion.
+  '29b3f93': '37095097', // Encryption and authentication.
+  '42bbc61f': '12493038', // Vehicle approach and detection distance.
+  '7b33f865': '6466143', // Bidirectional network communications.
+  '381fa863': '28675583', // Integrated connection interfaces.
+  '59de620': '33514501', // Industrial installation.
+  'be4d198': '5050305', // Secure communication infrastructure.
+  '5ba5b788': '36825977', // Hazardous-area industrial environment.
+  'c6f791c': '9799735', // Vehicle identification in a managed parking facility.
+  '38a4741b': '17389565', // Exposed outdoor vehicle environment.
+  '2f3ac733': '33473263', // Long-range parking coverage.
+  '24d01cf0': '31029379', // Vehicles approaching along an access lane.
+  '6422e907': '15022471', // Vehicle spacing and coverage.
+  'e416645': '1432794', // Integrated electronic interfaces.
+  '3d068f53': '16161087', // Vehicle identification context.
+  'bb4cf37': '14833543', // Narrow vehicle approach lane.
+  '6d321705': '13657444', // Contactless card credential use.
+  '3711e398': '28960714', // Defined parking detection area.
+  '13cb2999': '163170', // Electronic communication connectors.
+};
+// ANPR explainer cards: camera hardware, monitoring software, and image processing.
+const anprBackgrounds = {
+  '2d1df7c1': '96612',
+  '662ce087': 'epm-light-assets/features/video-analytics.webp',
+  'b19f5d6': '1432794',
+  '27e3c7b': '34023290', // Preserve the existing interface card when reserving the images above.
+};
 const homeIndustries = {
   '828d847': 'government', 'a9e81d6': 'transport-aviation', '60f8d70': 'construction-oil-gas',
   'f5521d1': 'enterprise', 'ac862d4': 'hospitality-tourism', 'e452e90': 'police-military',
@@ -134,7 +178,12 @@ for (const [page, entries] of Object.entries(map)) {
     let topic = rules.find(([regex]) => regex.test(text))?.[1];
     const reason = topic ? 'card subject' : 'page subject';
     if (!topic) topic = pageTopic(pages[page] || '');
-    const asset = uniquePhotos.select({topic, pageTopic:pageTopic(pages[page]), text, page, id, preferred:catalog[topic], used});
+    const readerPhoto = page === '3599' && readerBackgrounds[id];
+    const selectedPhoto = readerPhoto || (page === '3618' && nedapBackgrounds[id])
+      || (page === '3060' && anprBackgrounds[id]);
+    const asset = selectedPhoto
+      ? (selectedPhoto.startsWith('epm-light-assets/') ? selectedPhoto : `epm-light-assets/photography/pexels-${selectedPhoto}.jpg`)
+      : uniquePhotos.select({topic, pageTopic:pageTopic(pages[page]), text, page, id, preferred:catalog[topic], used});
     used.add(uniquePhotos.identity(asset));
     // Explicit import mode is used only while preparing new, reviewed stock assets.
     if (!fs.existsSync(path.join(base,asset)) && process.argv.includes('--import-photos')) {
