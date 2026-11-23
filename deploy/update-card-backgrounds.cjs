@@ -153,6 +153,12 @@ const anprBackgrounds = {
   'b19f5d6': '1432794',
   '27e3c7b': '34023290', // Preserve the existing interface card when reserving the images above.
 };
+// Dome-camera benefits need dome hardware and indoor monitoring, not outdoor poles.
+const domeBackgrounds = {
+  '757cb9a': '37591155', // Compact mounted dome and its installation bracket.
+  '82bba35': '5966513', // Dome camera mounted against an indoor tiled surface.
+  '35791eb': 'epm-light-assets/features/security-operations.webp', // Detailed surveillance feeds.
+};
 const homeIndustries = {
   '828d847': 'government', 'a9e81d6': 'transport-aviation', '60f8d70': 'construction-oil-gas',
   'f5521d1': 'enterprise', 'ac862d4': 'hospitality-tourism', 'e452e90': 'police-military',
@@ -180,7 +186,8 @@ for (const [page, entries] of Object.entries(map)) {
     if (!topic) topic = pageTopic(pages[page] || '');
     const readerPhoto = page === '3599' && readerBackgrounds[id];
     const selectedPhoto = readerPhoto || (page === '3618' && nedapBackgrounds[id])
-      || (page === '3060' && anprBackgrounds[id]);
+      || (page === '3060' && anprBackgrounds[id])
+      || (page === '2946' && domeBackgrounds[id]);
     const asset = selectedPhoto
       ? (selectedPhoto.startsWith('epm-light-assets/') ? selectedPhoto : `epm-light-assets/photography/pexels-${selectedPhoto}.jpg`)
       : uniquePhotos.select({topic, pageTopic:pageTopic(pages[page]), text, page, id, preferred:catalog[topic], used});
