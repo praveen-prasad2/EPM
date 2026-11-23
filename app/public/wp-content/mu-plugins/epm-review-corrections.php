@@ -50,7 +50,7 @@ function epm_review_directory() {
     $groups = [
         'Enterprise Access Control Software' => [['SPICA',2883],['NEDAP',2925],['INVIXIUM',3196],['SUPREMA',3221]],
         'Face Recognition Readers' => [['SUPREMA — BioEntry W3 and BioStation 3',3370],['IDEMIA — VisionPass',3406],['HID — Amico',3430],['INVIXIUM — IXM ROSTO and TFACE',3459]],
-        'Touchless Biometric Readers' => [['IRIS ID — iris readers',3246],['IDEMIA — MorphoWave fingerprint readers',3263]],
+        'Touchless Biometric Readers' => [['IRIS ID — iris readers',3246],['IDEMIA — VisionPass SP contactless readers',3263]],
         'Touch-Based Biometric Readers' => [['IDEMIA — optical fingerprint readers',3493],['SUPREMA — optical fingerprint readers',3524],['HID — multispectral fingerprint readers',3300]],
         'Cards & Credentials' => [['Smart Contactless Cards',3563],['Mobile Virtual Credentials',3584],['Fingerprint Cards',3335]],
         'ID Card Readers' => [['HID Smart Card Readers',3599],['NEDAP Long-Range Readers',3618],['HID Long-Range Readers',3637],['QR Code Readers',3651],['Wireless Readers',3672]],
