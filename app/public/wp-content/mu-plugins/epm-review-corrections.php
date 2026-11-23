@@ -173,7 +173,11 @@ add_filter('the_content', 'epm_review_content', 90);
 
 // Keep the corrected QR URL canonical while retaining the existing page and old-link redirect.
 add_filter('request', function ($vars) {
-    if (($vars['pagename'] ?? '') === 'qr-code-readers') { unset($vars['pagename']); $vars['page_id'] = 3651; }
+    $path = parse_url($_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH);
+    if (rtrim((string) $path, '/') === '/qr-code-readers') {
+        // A new slug can reach WordPress as name/error=404 before a page rewrite exists.
+        $vars = ['page_id' => 3651];
+    }
     return $vars;
 });
 add_filter('page_link', function ($url, $id) { return (int) $id === 3651 ? home_url('/qr-code-readers/') : $url; }, 10, 2);
